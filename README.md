@@ -1,5 +1,9 @@
 # Lucide Micro
 
+Generic component for [Lucide](https://github.com/lucide-icons/lucide) icons. Without importing the entire Lucide library.
+
+> Make sure `splitChunks.chunks` is set to `all` in your `Webpack`/`Rspack` config for the best results.
+
 ### Install
 ```bash
 npm install --save lucide-micro
