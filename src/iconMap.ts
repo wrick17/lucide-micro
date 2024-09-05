@@ -1,0 +1,3056 @@
+
+import { lazy } from "react";
+
+const AArrowDown = lazy(() => import("./components/AArrowDown"));
+const AArrowUp = lazy(() => import("./components/AArrowUp"));
+const ALargeSmall = lazy(() => import("./components/ALargeSmall"));
+const Accessibility = lazy(() => import("./components/Accessibility"));
+const Activity = lazy(() => import("./components/Activity"));
+const AirVent = lazy(() => import("./components/AirVent"));
+const Airplay = lazy(() => import("./components/Airplay"));
+const AlarmClockCheck = lazy(() => import("./components/AlarmClockCheck"));
+const AlarmClockMinus = lazy(() => import("./components/AlarmClockMinus"));
+const AlarmClockOff = lazy(() => import("./components/AlarmClockOff"));
+const AlarmClockPlus = lazy(() => import("./components/AlarmClockPlus"));
+const AlarmClock = lazy(() => import("./components/AlarmClock"));
+const AlarmSmoke = lazy(() => import("./components/AlarmSmoke"));
+const Album = lazy(() => import("./components/Album"));
+const AlignCenterHorizontal = lazy(() => import("./components/AlignCenterHorizontal"));
+const AlignCenterVertical = lazy(() => import("./components/AlignCenterVertical"));
+const AlignCenter = lazy(() => import("./components/AlignCenter"));
+const AlignEndHorizontal = lazy(() => import("./components/AlignEndHorizontal"));
+const AlignEndVertical = lazy(() => import("./components/AlignEndVertical"));
+const AlignHorizontalDistributeCenter = lazy(() => import("./components/AlignHorizontalDistributeCenter"));
+const AlignHorizontalDistributeEnd = lazy(() => import("./components/AlignHorizontalDistributeEnd"));
+const AlignHorizontalDistributeStart = lazy(() => import("./components/AlignHorizontalDistributeStart"));
+const AlignHorizontalJustifyCenter = lazy(() => import("./components/AlignHorizontalJustifyCenter"));
+const AlignHorizontalJustifyEnd = lazy(() => import("./components/AlignHorizontalJustifyEnd"));
+const AlignHorizontalJustifyStart = lazy(() => import("./components/AlignHorizontalJustifyStart"));
+const AlignHorizontalSpaceAround = lazy(() => import("./components/AlignHorizontalSpaceAround"));
+const AlignHorizontalSpaceBetween = lazy(() => import("./components/AlignHorizontalSpaceBetween"));
+const AlignJustify = lazy(() => import("./components/AlignJustify"));
+const AlignLeft = lazy(() => import("./components/AlignLeft"));
+const AlignRight = lazy(() => import("./components/AlignRight"));
+const AlignStartHorizontal = lazy(() => import("./components/AlignStartHorizontal"));
+const AlignStartVertical = lazy(() => import("./components/AlignStartVertical"));
+const AlignVerticalDistributeCenter = lazy(() => import("./components/AlignVerticalDistributeCenter"));
+const AlignVerticalDistributeEnd = lazy(() => import("./components/AlignVerticalDistributeEnd"));
+const AlignVerticalDistributeStart = lazy(() => import("./components/AlignVerticalDistributeStart"));
+const AlignVerticalJustifyCenter = lazy(() => import("./components/AlignVerticalJustifyCenter"));
+const AlignVerticalJustifyEnd = lazy(() => import("./components/AlignVerticalJustifyEnd"));
+const AlignVerticalJustifyStart = lazy(() => import("./components/AlignVerticalJustifyStart"));
+const AlignVerticalSpaceAround = lazy(() => import("./components/AlignVerticalSpaceAround"));
+const AlignVerticalSpaceBetween = lazy(() => import("./components/AlignVerticalSpaceBetween"));
+const Ambulance = lazy(() => import("./components/Ambulance"));
+const Ampersand = lazy(() => import("./components/Ampersand"));
+const Ampersands = lazy(() => import("./components/Ampersands"));
+const Amphora = lazy(() => import("./components/Amphora"));
+const Anchor = lazy(() => import("./components/Anchor"));
+const Angry = lazy(() => import("./components/Angry"));
+const Annoyed = lazy(() => import("./components/Annoyed"));
+const Antenna = lazy(() => import("./components/Antenna"));
+const Anvil = lazy(() => import("./components/Anvil"));
+const Aperture = lazy(() => import("./components/Aperture"));
+const AppWindowMac = lazy(() => import("./components/AppWindowMac"));
+const AppWindow = lazy(() => import("./components/AppWindow"));
+const Apple = lazy(() => import("./components/Apple"));
+const ArchiveRestore = lazy(() => import("./components/ArchiveRestore"));
+const ArchiveX = lazy(() => import("./components/ArchiveX"));
+const Archive = lazy(() => import("./components/Archive"));
+const Armchair = lazy(() => import("./components/Armchair"));
+const ArrowBigDownDash = lazy(() => import("./components/ArrowBigDownDash"));
+const ArrowBigDown = lazy(() => import("./components/ArrowBigDown"));
+const ArrowBigLeftDash = lazy(() => import("./components/ArrowBigLeftDash"));
+const ArrowBigLeft = lazy(() => import("./components/ArrowBigLeft"));
+const ArrowBigRightDash = lazy(() => import("./components/ArrowBigRightDash"));
+const ArrowBigRight = lazy(() => import("./components/ArrowBigRight"));
+const ArrowBigUpDash = lazy(() => import("./components/ArrowBigUpDash"));
+const ArrowBigUp = lazy(() => import("./components/ArrowBigUp"));
+const ArrowDown01 = lazy(() => import("./components/ArrowDown01"));
+const ArrowDown10 = lazy(() => import("./components/ArrowDown10"));
+const ArrowDownAZ = lazy(() => import("./components/ArrowDownAZ"));
+const ArrowDownFromLine = lazy(() => import("./components/ArrowDownFromLine"));
+const ArrowDownLeft = lazy(() => import("./components/ArrowDownLeft"));
+const ArrowDownNarrowWide = lazy(() => import("./components/ArrowDownNarrowWide"));
+const ArrowDownRight = lazy(() => import("./components/ArrowDownRight"));
+const ArrowDownToDot = lazy(() => import("./components/ArrowDownToDot"));
+const ArrowDownToLine = lazy(() => import("./components/ArrowDownToLine"));
+const ArrowDownUp = lazy(() => import("./components/ArrowDownUp"));
+const ArrowDownWideNarrow = lazy(() => import("./components/ArrowDownWideNarrow"));
+const ArrowDownZA = lazy(() => import("./components/ArrowDownZA"));
+const ArrowDown = lazy(() => import("./components/ArrowDown"));
+const ArrowLeftFromLine = lazy(() => import("./components/ArrowLeftFromLine"));
+const ArrowLeftRight = lazy(() => import("./components/ArrowLeftRight"));
+const ArrowLeftToLine = lazy(() => import("./components/ArrowLeftToLine"));
+const ArrowLeft = lazy(() => import("./components/ArrowLeft"));
+const ArrowRightFromLine = lazy(() => import("./components/ArrowRightFromLine"));
+const ArrowRightLeft = lazy(() => import("./components/ArrowRightLeft"));
+const ArrowRightToLine = lazy(() => import("./components/ArrowRightToLine"));
+const ArrowRight = lazy(() => import("./components/ArrowRight"));
+const ArrowUp01 = lazy(() => import("./components/ArrowUp01"));
+const ArrowUp10 = lazy(() => import("./components/ArrowUp10"));
+const ArrowUpAZ = lazy(() => import("./components/ArrowUpAZ"));
+const ArrowUpDown = lazy(() => import("./components/ArrowUpDown"));
+const ArrowUpFromDot = lazy(() => import("./components/ArrowUpFromDot"));
+const ArrowUpFromLine = lazy(() => import("./components/ArrowUpFromLine"));
+const ArrowUpLeft = lazy(() => import("./components/ArrowUpLeft"));
+const ArrowUpNarrowWide = lazy(() => import("./components/ArrowUpNarrowWide"));
+const ArrowUpRight = lazy(() => import("./components/ArrowUpRight"));
+const ArrowUpToLine = lazy(() => import("./components/ArrowUpToLine"));
+const ArrowUpWideNarrow = lazy(() => import("./components/ArrowUpWideNarrow"));
+const ArrowUpZA = lazy(() => import("./components/ArrowUpZA"));
+const ArrowUp = lazy(() => import("./components/ArrowUp"));
+const ArrowsUpFromLine = lazy(() => import("./components/ArrowsUpFromLine"));
+const Asterisk = lazy(() => import("./components/Asterisk"));
+const AtSign = lazy(() => import("./components/AtSign"));
+const Atom = lazy(() => import("./components/Atom"));
+const AudioLines = lazy(() => import("./components/AudioLines"));
+const AudioWaveform = lazy(() => import("./components/AudioWaveform"));
+const Award = lazy(() => import("./components/Award"));
+const Axe = lazy(() => import("./components/Axe"));
+const Axis3d = lazy(() => import("./components/Axis3d"));
+const Baby = lazy(() => import("./components/Baby"));
+const Backpack = lazy(() => import("./components/Backpack"));
+const BadgeAlert = lazy(() => import("./components/BadgeAlert"));
+const BadgeCent = lazy(() => import("./components/BadgeCent"));
+const BadgeCheck = lazy(() => import("./components/BadgeCheck"));
+const BadgeDollarSign = lazy(() => import("./components/BadgeDollarSign"));
+const BadgeEuro = lazy(() => import("./components/BadgeEuro"));
+const BadgeHelp = lazy(() => import("./components/BadgeHelp"));
+const BadgeIndianRupee = lazy(() => import("./components/BadgeIndianRupee"));
+const BadgeInfo = lazy(() => import("./components/BadgeInfo"));
+const BadgeJapaneseYen = lazy(() => import("./components/BadgeJapaneseYen"));
+const BadgeMinus = lazy(() => import("./components/BadgeMinus"));
+const BadgePercent = lazy(() => import("./components/BadgePercent"));
+const BadgePlus = lazy(() => import("./components/BadgePlus"));
+const BadgePoundSterling = lazy(() => import("./components/BadgePoundSterling"));
+const BadgeRussianRuble = lazy(() => import("./components/BadgeRussianRuble"));
+const BadgeSwissFranc = lazy(() => import("./components/BadgeSwissFranc"));
+const BadgeX = lazy(() => import("./components/BadgeX"));
+const Badge = lazy(() => import("./components/Badge"));
+const BaggageClaim = lazy(() => import("./components/BaggageClaim"));
+const Ban = lazy(() => import("./components/Ban"));
+const Banana = lazy(() => import("./components/Banana"));
+const Bandage = lazy(() => import("./components/Bandage"));
+const Banknote = lazy(() => import("./components/Banknote"));
+const Barcode = lazy(() => import("./components/Barcode"));
+const Baseline = lazy(() => import("./components/Baseline"));
+const Bath = lazy(() => import("./components/Bath"));
+const BatteryCharging = lazy(() => import("./components/BatteryCharging"));
+const BatteryFull = lazy(() => import("./components/BatteryFull"));
+const BatteryLow = lazy(() => import("./components/BatteryLow"));
+const BatteryMedium = lazy(() => import("./components/BatteryMedium"));
+const BatteryWarning = lazy(() => import("./components/BatteryWarning"));
+const Battery = lazy(() => import("./components/Battery"));
+const Beaker = lazy(() => import("./components/Beaker"));
+const BeanOff = lazy(() => import("./components/BeanOff"));
+const Bean = lazy(() => import("./components/Bean"));
+const BedDouble = lazy(() => import("./components/BedDouble"));
+const BedSingle = lazy(() => import("./components/BedSingle"));
+const Bed = lazy(() => import("./components/Bed"));
+const Beef = lazy(() => import("./components/Beef"));
+const BeerOff = lazy(() => import("./components/BeerOff"));
+const Beer = lazy(() => import("./components/Beer"));
+const BellDot = lazy(() => import("./components/BellDot"));
+const BellElectric = lazy(() => import("./components/BellElectric"));
+const BellMinus = lazy(() => import("./components/BellMinus"));
+const BellOff = lazy(() => import("./components/BellOff"));
+const BellPlus = lazy(() => import("./components/BellPlus"));
+const BellRing = lazy(() => import("./components/BellRing"));
+const Bell = lazy(() => import("./components/Bell"));
+const BetweenHorizontalEnd = lazy(() => import("./components/BetweenHorizontalEnd"));
+const BetweenHorizontalStart = lazy(() => import("./components/BetweenHorizontalStart"));
+const BetweenVerticalEnd = lazy(() => import("./components/BetweenVerticalEnd"));
+const BetweenVerticalStart = lazy(() => import("./components/BetweenVerticalStart"));
+const BicepsFlexed = lazy(() => import("./components/BicepsFlexed"));
+const Bike = lazy(() => import("./components/Bike"));
+const Binary = lazy(() => import("./components/Binary"));
+const Binoculars = lazy(() => import("./components/Binoculars"));
+const Biohazard = lazy(() => import("./components/Biohazard"));
+const Bird = lazy(() => import("./components/Bird"));
+const Bitcoin = lazy(() => import("./components/Bitcoin"));
+const Blend = lazy(() => import("./components/Blend"));
+const Blinds = lazy(() => import("./components/Blinds"));
+const Blocks = lazy(() => import("./components/Blocks"));
+const BluetoothConnected = lazy(() => import("./components/BluetoothConnected"));
+const BluetoothOff = lazy(() => import("./components/BluetoothOff"));
+const BluetoothSearching = lazy(() => import("./components/BluetoothSearching"));
+const Bluetooth = lazy(() => import("./components/Bluetooth"));
+const Bold = lazy(() => import("./components/Bold"));
+const Bolt = lazy(() => import("./components/Bolt"));
+const Bomb = lazy(() => import("./components/Bomb"));
+const Bone = lazy(() => import("./components/Bone"));
+const BookA = lazy(() => import("./components/BookA"));
+const BookAudio = lazy(() => import("./components/BookAudio"));
+const BookCheck = lazy(() => import("./components/BookCheck"));
+const BookCopy = lazy(() => import("./components/BookCopy"));
+const BookDashed = lazy(() => import("./components/BookDashed"));
+const BookDown = lazy(() => import("./components/BookDown"));
+const BookHeadphones = lazy(() => import("./components/BookHeadphones"));
+const BookHeart = lazy(() => import("./components/BookHeart"));
+const BookImage = lazy(() => import("./components/BookImage"));
+const BookKey = lazy(() => import("./components/BookKey"));
+const BookLock = lazy(() => import("./components/BookLock"));
+const BookMarked = lazy(() => import("./components/BookMarked"));
+const BookMinus = lazy(() => import("./components/BookMinus"));
+const BookOpenCheck = lazy(() => import("./components/BookOpenCheck"));
+const BookOpenText = lazy(() => import("./components/BookOpenText"));
+const BookOpen = lazy(() => import("./components/BookOpen"));
+const BookPlus = lazy(() => import("./components/BookPlus"));
+const BookText = lazy(() => import("./components/BookText"));
+const BookType = lazy(() => import("./components/BookType"));
+const BookUp2 = lazy(() => import("./components/BookUp2"));
+const BookUp = lazy(() => import("./components/BookUp"));
+const BookUser = lazy(() => import("./components/BookUser"));
+const BookX = lazy(() => import("./components/BookX"));
+const Book = lazy(() => import("./components/Book"));
+const BookmarkCheck = lazy(() => import("./components/BookmarkCheck"));
+const BookmarkMinus = lazy(() => import("./components/BookmarkMinus"));
+const BookmarkPlus = lazy(() => import("./components/BookmarkPlus"));
+const BookmarkX = lazy(() => import("./components/BookmarkX"));
+const Bookmark = lazy(() => import("./components/Bookmark"));
+const BoomBox = lazy(() => import("./components/BoomBox"));
+const BotMessageSquare = lazy(() => import("./components/BotMessageSquare"));
+const BotOff = lazy(() => import("./components/BotOff"));
+const Bot = lazy(() => import("./components/Bot"));
+const BoxSelect = lazy(() => import("./components/BoxSelect"));
+const Box = lazy(() => import("./components/Box"));
+const Boxes = lazy(() => import("./components/Boxes"));
+const Braces = lazy(() => import("./components/Braces"));
+const Brackets = lazy(() => import("./components/Brackets"));
+const BrainCircuit = lazy(() => import("./components/BrainCircuit"));
+const BrainCog = lazy(() => import("./components/BrainCog"));
+const Brain = lazy(() => import("./components/Brain"));
+const BrickWall = lazy(() => import("./components/BrickWall"));
+const BriefcaseBusiness = lazy(() => import("./components/BriefcaseBusiness"));
+const BriefcaseMedical = lazy(() => import("./components/BriefcaseMedical"));
+const Briefcase = lazy(() => import("./components/Briefcase"));
+const BringToFront = lazy(() => import("./components/BringToFront"));
+const Brush = lazy(() => import("./components/Brush"));
+const BugOff = lazy(() => import("./components/BugOff"));
+const BugPlay = lazy(() => import("./components/BugPlay"));
+const Bug = lazy(() => import("./components/Bug"));
+const Building2 = lazy(() => import("./components/Building2"));
+const Building = lazy(() => import("./components/Building"));
+const BusFront = lazy(() => import("./components/BusFront"));
+const Bus = lazy(() => import("./components/Bus"));
+const CableCar = lazy(() => import("./components/CableCar"));
+const Cable = lazy(() => import("./components/Cable"));
+const CakeSlice = lazy(() => import("./components/CakeSlice"));
+const Cake = lazy(() => import("./components/Cake"));
+const Calculator = lazy(() => import("./components/Calculator"));
+const CalendarArrowDown = lazy(() => import("./components/CalendarArrowDown"));
+const CalendarArrowUp = lazy(() => import("./components/CalendarArrowUp"));
+const CalendarCheck2 = lazy(() => import("./components/CalendarCheck2"));
+const CalendarCheck = lazy(() => import("./components/CalendarCheck"));
+const CalendarClock = lazy(() => import("./components/CalendarClock"));
+const CalendarCog = lazy(() => import("./components/CalendarCog"));
+const CalendarDays = lazy(() => import("./components/CalendarDays"));
+const CalendarFold = lazy(() => import("./components/CalendarFold"));
+const CalendarHeart = lazy(() => import("./components/CalendarHeart"));
+const CalendarMinus2 = lazy(() => import("./components/CalendarMinus2"));
+const CalendarMinus = lazy(() => import("./components/CalendarMinus"));
+const CalendarOff = lazy(() => import("./components/CalendarOff"));
+const CalendarPlus2 = lazy(() => import("./components/CalendarPlus2"));
+const CalendarPlus = lazy(() => import("./components/CalendarPlus"));
+const CalendarRange = lazy(() => import("./components/CalendarRange"));
+const CalendarSearch = lazy(() => import("./components/CalendarSearch"));
+const CalendarX2 = lazy(() => import("./components/CalendarX2"));
+const CalendarX = lazy(() => import("./components/CalendarX"));
+const Calendar = lazy(() => import("./components/Calendar"));
+const CameraOff = lazy(() => import("./components/CameraOff"));
+const Camera = lazy(() => import("./components/Camera"));
+const CandyCane = lazy(() => import("./components/CandyCane"));
+const CandyOff = lazy(() => import("./components/CandyOff"));
+const Candy = lazy(() => import("./components/Candy"));
+const Cannabis = lazy(() => import("./components/Cannabis"));
+const CaptionsOff = lazy(() => import("./components/CaptionsOff"));
+const Captions = lazy(() => import("./components/Captions"));
+const CarFront = lazy(() => import("./components/CarFront"));
+const CarTaxiFront = lazy(() => import("./components/CarTaxiFront"));
+const Car = lazy(() => import("./components/Car"));
+const Caravan = lazy(() => import("./components/Caravan"));
+const Carrot = lazy(() => import("./components/Carrot"));
+const CaseLower = lazy(() => import("./components/CaseLower"));
+const CaseSensitive = lazy(() => import("./components/CaseSensitive"));
+const CaseUpper = lazy(() => import("./components/CaseUpper"));
+const CassetteTape = lazy(() => import("./components/CassetteTape"));
+const Cast = lazy(() => import("./components/Cast"));
+const Castle = lazy(() => import("./components/Castle"));
+const Cat = lazy(() => import("./components/Cat"));
+const Cctv = lazy(() => import("./components/Cctv"));
+const ChartArea = lazy(() => import("./components/ChartArea"));
+const ChartBarBig = lazy(() => import("./components/ChartBarBig"));
+const ChartBarDecreasing = lazy(() => import("./components/ChartBarDecreasing"));
+const ChartBarIncreasing = lazy(() => import("./components/ChartBarIncreasing"));
+const ChartBarStacked = lazy(() => import("./components/ChartBarStacked"));
+const ChartBar = lazy(() => import("./components/ChartBar"));
+const ChartCandlestick = lazy(() => import("./components/ChartCandlestick"));
+const ChartColumnBig = lazy(() => import("./components/ChartColumnBig"));
+const ChartColumnDecreasing = lazy(() => import("./components/ChartColumnDecreasing"));
+const ChartColumnIncreasing = lazy(() => import("./components/ChartColumnIncreasing"));
+const ChartColumnStacked = lazy(() => import("./components/ChartColumnStacked"));
+const ChartColumn = lazy(() => import("./components/ChartColumn"));
+const ChartGantt = lazy(() => import("./components/ChartGantt"));
+const ChartLine = lazy(() => import("./components/ChartLine"));
+const ChartNetwork = lazy(() => import("./components/ChartNetwork"));
+const ChartNoAxesColumnDecreasing = lazy(() => import("./components/ChartNoAxesColumnDecreasing"));
+const ChartNoAxesColumnIncreasing = lazy(() => import("./components/ChartNoAxesColumnIncreasing"));
+const ChartNoAxesColumn = lazy(() => import("./components/ChartNoAxesColumn"));
+const ChartNoAxesCombined = lazy(() => import("./components/ChartNoAxesCombined"));
+const ChartNoAxesGantt = lazy(() => import("./components/ChartNoAxesGantt"));
+const ChartPie = lazy(() => import("./components/ChartPie"));
+const ChartScatter = lazy(() => import("./components/ChartScatter"));
+const ChartSpline = lazy(() => import("./components/ChartSpline"));
+const CheckCheck = lazy(() => import("./components/CheckCheck"));
+const Check = lazy(() => import("./components/Check"));
+const ChefHat = lazy(() => import("./components/ChefHat"));
+const Cherry = lazy(() => import("./components/Cherry"));
+const ChevronDown = lazy(() => import("./components/ChevronDown"));
+const ChevronFirst = lazy(() => import("./components/ChevronFirst"));
+const ChevronLast = lazy(() => import("./components/ChevronLast"));
+const ChevronLeft = lazy(() => import("./components/ChevronLeft"));
+const ChevronRight = lazy(() => import("./components/ChevronRight"));
+const ChevronUp = lazy(() => import("./components/ChevronUp"));
+const ChevronsDownUp = lazy(() => import("./components/ChevronsDownUp"));
+const ChevronsDown = lazy(() => import("./components/ChevronsDown"));
+const ChevronsLeftRightEllipsis = lazy(() => import("./components/ChevronsLeftRightEllipsis"));
+const ChevronsLeftRight = lazy(() => import("./components/ChevronsLeftRight"));
+const ChevronsLeft = lazy(() => import("./components/ChevronsLeft"));
+const ChevronsRightLeft = lazy(() => import("./components/ChevronsRightLeft"));
+const ChevronsRight = lazy(() => import("./components/ChevronsRight"));
+const ChevronsUpDown = lazy(() => import("./components/ChevronsUpDown"));
+const ChevronsUp = lazy(() => import("./components/ChevronsUp"));
+const Chrome = lazy(() => import("./components/Chrome"));
+const Church = lazy(() => import("./components/Church"));
+const CigaretteOff = lazy(() => import("./components/CigaretteOff"));
+const Cigarette = lazy(() => import("./components/Cigarette"));
+const CircleAlert = lazy(() => import("./components/CircleAlert"));
+const CircleArrowDown = lazy(() => import("./components/CircleArrowDown"));
+const CircleArrowLeft = lazy(() => import("./components/CircleArrowLeft"));
+const CircleArrowOutDownLeft = lazy(() => import("./components/CircleArrowOutDownLeft"));
+const CircleArrowOutDownRight = lazy(() => import("./components/CircleArrowOutDownRight"));
+const CircleArrowOutUpLeft = lazy(() => import("./components/CircleArrowOutUpLeft"));
+const CircleArrowOutUpRight = lazy(() => import("./components/CircleArrowOutUpRight"));
+const CircleArrowRight = lazy(() => import("./components/CircleArrowRight"));
+const CircleArrowUp = lazy(() => import("./components/CircleArrowUp"));
+const CircleCheckBig = lazy(() => import("./components/CircleCheckBig"));
+const CircleCheck = lazy(() => import("./components/CircleCheck"));
+const CircleChevronDown = lazy(() => import("./components/CircleChevronDown"));
+const CircleChevronLeft = lazy(() => import("./components/CircleChevronLeft"));
+const CircleChevronRight = lazy(() => import("./components/CircleChevronRight"));
+const CircleChevronUp = lazy(() => import("./components/CircleChevronUp"));
+const CircleDashed = lazy(() => import("./components/CircleDashed"));
+const CircleDivide = lazy(() => import("./components/CircleDivide"));
+const CircleDollarSign = lazy(() => import("./components/CircleDollarSign"));
+const CircleDotDashed = lazy(() => import("./components/CircleDotDashed"));
+const CircleDot = lazy(() => import("./components/CircleDot"));
+const CircleEllipsis = lazy(() => import("./components/CircleEllipsis"));
+const CircleEqual = lazy(() => import("./components/CircleEqual"));
+const CircleFadingArrowUp = lazy(() => import("./components/CircleFadingArrowUp"));
+const CircleFadingPlus = lazy(() => import("./components/CircleFadingPlus"));
+const CircleGauge = lazy(() => import("./components/CircleGauge"));
+const CircleHelp = lazy(() => import("./components/CircleHelp"));
+const CircleMinus = lazy(() => import("./components/CircleMinus"));
+const CircleOff = lazy(() => import("./components/CircleOff"));
+const CircleParkingOff = lazy(() => import("./components/CircleParkingOff"));
+const CircleParking = lazy(() => import("./components/CircleParking"));
+const CirclePause = lazy(() => import("./components/CirclePause"));
+const CirclePercent = lazy(() => import("./components/CirclePercent"));
+const CirclePlay = lazy(() => import("./components/CirclePlay"));
+const CirclePlus = lazy(() => import("./components/CirclePlus"));
+const CirclePower = lazy(() => import("./components/CirclePower"));
+const CircleSlash2 = lazy(() => import("./components/CircleSlash2"));
+const CircleSlash = lazy(() => import("./components/CircleSlash"));
+const CircleStop = lazy(() => import("./components/CircleStop"));
+const CircleUserRound = lazy(() => import("./components/CircleUserRound"));
+const CircleUser = lazy(() => import("./components/CircleUser"));
+const CircleX = lazy(() => import("./components/CircleX"));
+const Circle = lazy(() => import("./components/Circle"));
+const CircuitBoard = lazy(() => import("./components/CircuitBoard"));
+const Citrus = lazy(() => import("./components/Citrus"));
+const Clapperboard = lazy(() => import("./components/Clapperboard"));
+const ClipboardCheck = lazy(() => import("./components/ClipboardCheck"));
+const ClipboardCopy = lazy(() => import("./components/ClipboardCopy"));
+const ClipboardList = lazy(() => import("./components/ClipboardList"));
+const ClipboardMinus = lazy(() => import("./components/ClipboardMinus"));
+const ClipboardPaste = lazy(() => import("./components/ClipboardPaste"));
+const ClipboardPenLine = lazy(() => import("./components/ClipboardPenLine"));
+const ClipboardPen = lazy(() => import("./components/ClipboardPen"));
+const ClipboardPlus = lazy(() => import("./components/ClipboardPlus"));
+const ClipboardType = lazy(() => import("./components/ClipboardType"));
+const ClipboardX = lazy(() => import("./components/ClipboardX"));
+const Clipboard = lazy(() => import("./components/Clipboard"));
+const Clock1 = lazy(() => import("./components/Clock1"));
+const Clock10 = lazy(() => import("./components/Clock10"));
+const Clock11 = lazy(() => import("./components/Clock11"));
+const Clock12 = lazy(() => import("./components/Clock12"));
+const Clock2 = lazy(() => import("./components/Clock2"));
+const Clock3 = lazy(() => import("./components/Clock3"));
+const Clock4 = lazy(() => import("./components/Clock4"));
+const Clock5 = lazy(() => import("./components/Clock5"));
+const Clock6 = lazy(() => import("./components/Clock6"));
+const Clock7 = lazy(() => import("./components/Clock7"));
+const Clock8 = lazy(() => import("./components/Clock8"));
+const Clock9 = lazy(() => import("./components/Clock9"));
+const ClockArrowDown = lazy(() => import("./components/ClockArrowDown"));
+const ClockArrowUp = lazy(() => import("./components/ClockArrowUp"));
+const Clock = lazy(() => import("./components/Clock"));
+const CloudCog = lazy(() => import("./components/CloudCog"));
+const CloudDownload = lazy(() => import("./components/CloudDownload"));
+const CloudDrizzle = lazy(() => import("./components/CloudDrizzle"));
+const CloudFog = lazy(() => import("./components/CloudFog"));
+const CloudHail = lazy(() => import("./components/CloudHail"));
+const CloudLightning = lazy(() => import("./components/CloudLightning"));
+const CloudMoonRain = lazy(() => import("./components/CloudMoonRain"));
+const CloudMoon = lazy(() => import("./components/CloudMoon"));
+const CloudOff = lazy(() => import("./components/CloudOff"));
+const CloudRainWind = lazy(() => import("./components/CloudRainWind"));
+const CloudRain = lazy(() => import("./components/CloudRain"));
+const CloudSnow = lazy(() => import("./components/CloudSnow"));
+const CloudSunRain = lazy(() => import("./components/CloudSunRain"));
+const CloudSun = lazy(() => import("./components/CloudSun"));
+const CloudUpload = lazy(() => import("./components/CloudUpload"));
+const Cloud = lazy(() => import("./components/Cloud"));
+const Cloudy = lazy(() => import("./components/Cloudy"));
+const Clover = lazy(() => import("./components/Clover"));
+const Club = lazy(() => import("./components/Club"));
+const CodeXml = lazy(() => import("./components/CodeXml"));
+const Code = lazy(() => import("./components/Code"));
+const Codepen = lazy(() => import("./components/Codepen"));
+const Codesandbox = lazy(() => import("./components/Codesandbox"));
+const Coffee = lazy(() => import("./components/Coffee"));
+const Cog = lazy(() => import("./components/Cog"));
+const Coins = lazy(() => import("./components/Coins"));
+const Columns2 = lazy(() => import("./components/Columns2"));
+const Columns3 = lazy(() => import("./components/Columns3"));
+const Columns4 = lazy(() => import("./components/Columns4"));
+const Combine = lazy(() => import("./components/Combine"));
+const Command = lazy(() => import("./components/Command"));
+const Compass = lazy(() => import("./components/Compass"));
+const Component = lazy(() => import("./components/Component"));
+const Computer = lazy(() => import("./components/Computer"));
+const ConciergeBell = lazy(() => import("./components/ConciergeBell"));
+const Cone = lazy(() => import("./components/Cone"));
+const Construction = lazy(() => import("./components/Construction"));
+const ContactRound = lazy(() => import("./components/ContactRound"));
+const Contact = lazy(() => import("./components/Contact"));
+const Container = lazy(() => import("./components/Container"));
+const Contrast = lazy(() => import("./components/Contrast"));
+const Cookie = lazy(() => import("./components/Cookie"));
+const CookingPot = lazy(() => import("./components/CookingPot"));
+const CopyCheck = lazy(() => import("./components/CopyCheck"));
+const CopyMinus = lazy(() => import("./components/CopyMinus"));
+const CopyPlus = lazy(() => import("./components/CopyPlus"));
+const CopySlash = lazy(() => import("./components/CopySlash"));
+const CopyX = lazy(() => import("./components/CopyX"));
+const Copy = lazy(() => import("./components/Copy"));
+const Copyleft = lazy(() => import("./components/Copyleft"));
+const Copyright = lazy(() => import("./components/Copyright"));
+const CornerDownLeft = lazy(() => import("./components/CornerDownLeft"));
+const CornerDownRight = lazy(() => import("./components/CornerDownRight"));
+const CornerLeftDown = lazy(() => import("./components/CornerLeftDown"));
+const CornerLeftUp = lazy(() => import("./components/CornerLeftUp"));
+const CornerRightDown = lazy(() => import("./components/CornerRightDown"));
+const CornerRightUp = lazy(() => import("./components/CornerRightUp"));
+const CornerUpLeft = lazy(() => import("./components/CornerUpLeft"));
+const CornerUpRight = lazy(() => import("./components/CornerUpRight"));
+const Cpu = lazy(() => import("./components/Cpu"));
+const CreativeCommons = lazy(() => import("./components/CreativeCommons"));
+const CreditCard = lazy(() => import("./components/CreditCard"));
+const Croissant = lazy(() => import("./components/Croissant"));
+const Crop = lazy(() => import("./components/Crop"));
+const Cross = lazy(() => import("./components/Cross"));
+const Crosshair = lazy(() => import("./components/Crosshair"));
+const Crown = lazy(() => import("./components/Crown"));
+const Cuboid = lazy(() => import("./components/Cuboid"));
+const CupSoda = lazy(() => import("./components/CupSoda"));
+const Currency = lazy(() => import("./components/Currency"));
+const Cylinder = lazy(() => import("./components/Cylinder"));
+const Dam = lazy(() => import("./components/Dam"));
+const DatabaseBackup = lazy(() => import("./components/DatabaseBackup"));
+const DatabaseZap = lazy(() => import("./components/DatabaseZap"));
+const Database = lazy(() => import("./components/Database"));
+const Delete = lazy(() => import("./components/Delete"));
+const Dessert = lazy(() => import("./components/Dessert"));
+const Diameter = lazy(() => import("./components/Diameter"));
+const DiamondMinus = lazy(() => import("./components/DiamondMinus"));
+const DiamondPercent = lazy(() => import("./components/DiamondPercent"));
+const DiamondPlus = lazy(() => import("./components/DiamondPlus"));
+const Diamond = lazy(() => import("./components/Diamond"));
+const Dice1 = lazy(() => import("./components/Dice1"));
+const Dice2 = lazy(() => import("./components/Dice2"));
+const Dice3 = lazy(() => import("./components/Dice3"));
+const Dice4 = lazy(() => import("./components/Dice4"));
+const Dice5 = lazy(() => import("./components/Dice5"));
+const Dice6 = lazy(() => import("./components/Dice6"));
+const Dices = lazy(() => import("./components/Dices"));
+const Diff = lazy(() => import("./components/Diff"));
+const Disc2 = lazy(() => import("./components/Disc2"));
+const Disc3 = lazy(() => import("./components/Disc3"));
+const DiscAlbum = lazy(() => import("./components/DiscAlbum"));
+const Disc = lazy(() => import("./components/Disc"));
+const Divide = lazy(() => import("./components/Divide"));
+const DnaOff = lazy(() => import("./components/DnaOff"));
+const Dna = lazy(() => import("./components/Dna"));
+const Dock = lazy(() => import("./components/Dock"));
+const Dog = lazy(() => import("./components/Dog"));
+const DollarSign = lazy(() => import("./components/DollarSign"));
+const Donut = lazy(() => import("./components/Donut"));
+const DoorClosed = lazy(() => import("./components/DoorClosed"));
+const DoorOpen = lazy(() => import("./components/DoorOpen"));
+const Dot = lazy(() => import("./components/Dot"));
+const Download = lazy(() => import("./components/Download"));
+const DraftingCompass = lazy(() => import("./components/DraftingCompass"));
+const Drama = lazy(() => import("./components/Drama"));
+const Dribbble = lazy(() => import("./components/Dribbble"));
+const Drill = lazy(() => import("./components/Drill"));
+const Droplet = lazy(() => import("./components/Droplet"));
+const Droplets = lazy(() => import("./components/Droplets"));
+const Drum = lazy(() => import("./components/Drum"));
+const Drumstick = lazy(() => import("./components/Drumstick"));
+const Dumbbell = lazy(() => import("./components/Dumbbell"));
+const EarOff = lazy(() => import("./components/EarOff"));
+const Ear = lazy(() => import("./components/Ear"));
+const EarthLock = lazy(() => import("./components/EarthLock"));
+const Earth = lazy(() => import("./components/Earth"));
+const Eclipse = lazy(() => import("./components/Eclipse"));
+const EggFried = lazy(() => import("./components/EggFried"));
+const EggOff = lazy(() => import("./components/EggOff"));
+const Egg = lazy(() => import("./components/Egg"));
+const EllipsisVertical = lazy(() => import("./components/EllipsisVertical"));
+const Ellipsis = lazy(() => import("./components/Ellipsis"));
+const EqualNot = lazy(() => import("./components/EqualNot"));
+const Equal = lazy(() => import("./components/Equal"));
+const Eraser = lazy(() => import("./components/Eraser"));
+const EthernetPort = lazy(() => import("./components/EthernetPort"));
+const Euro = lazy(() => import("./components/Euro"));
+const Expand = lazy(() => import("./components/Expand"));
+const ExternalLink = lazy(() => import("./components/ExternalLink"));
+const EyeOff = lazy(() => import("./components/EyeOff"));
+const Eye = lazy(() => import("./components/Eye"));
+const Facebook = lazy(() => import("./components/Facebook"));
+const Factory = lazy(() => import("./components/Factory"));
+const Fan = lazy(() => import("./components/Fan"));
+const FastForward = lazy(() => import("./components/FastForward"));
+const Feather = lazy(() => import("./components/Feather"));
+const Fence = lazy(() => import("./components/Fence"));
+const FerrisWheel = lazy(() => import("./components/FerrisWheel"));
+const Figma = lazy(() => import("./components/Figma"));
+const FileArchive = lazy(() => import("./components/FileArchive"));
+const FileAudio2 = lazy(() => import("./components/FileAudio2"));
+const FileAudio = lazy(() => import("./components/FileAudio"));
+const FileAxis3d = lazy(() => import("./components/FileAxis3d"));
+const FileBadge2 = lazy(() => import("./components/FileBadge2"));
+const FileBadge = lazy(() => import("./components/FileBadge"));
+const FileBox = lazy(() => import("./components/FileBox"));
+const FileChartColumnIncreasing = lazy(() => import("./components/FileChartColumnIncreasing"));
+const FileChartColumn = lazy(() => import("./components/FileChartColumn"));
+const FileChartLine = lazy(() => import("./components/FileChartLine"));
+const FileChartPie = lazy(() => import("./components/FileChartPie"));
+const FileCheck2 = lazy(() => import("./components/FileCheck2"));
+const FileCheck = lazy(() => import("./components/FileCheck"));
+const FileClock = lazy(() => import("./components/FileClock"));
+const FileCode2 = lazy(() => import("./components/FileCode2"));
+const FileCode = lazy(() => import("./components/FileCode"));
+const FileCog = lazy(() => import("./components/FileCog"));
+const FileDiff = lazy(() => import("./components/FileDiff"));
+const FileDigit = lazy(() => import("./components/FileDigit"));
+const FileDown = lazy(() => import("./components/FileDown"));
+const FileHeart = lazy(() => import("./components/FileHeart"));
+const FileImage = lazy(() => import("./components/FileImage"));
+const FileInput = lazy(() => import("./components/FileInput"));
+const FileJson2 = lazy(() => import("./components/FileJson2"));
+const FileJson = lazy(() => import("./components/FileJson"));
+const FileKey2 = lazy(() => import("./components/FileKey2"));
+const FileKey = lazy(() => import("./components/FileKey"));
+const FileLock2 = lazy(() => import("./components/FileLock2"));
+const FileLock = lazy(() => import("./components/FileLock"));
+const FileMinus2 = lazy(() => import("./components/FileMinus2"));
+const FileMinus = lazy(() => import("./components/FileMinus"));
+const FileMusic = lazy(() => import("./components/FileMusic"));
+const FileOutput = lazy(() => import("./components/FileOutput"));
+const FilePenLine = lazy(() => import("./components/FilePenLine"));
+const FilePen = lazy(() => import("./components/FilePen"));
+const FilePlus2 = lazy(() => import("./components/FilePlus2"));
+const FilePlus = lazy(() => import("./components/FilePlus"));
+const FileQuestion = lazy(() => import("./components/FileQuestion"));
+const FileScan = lazy(() => import("./components/FileScan"));
+const FileSearch2 = lazy(() => import("./components/FileSearch2"));
+const FileSearch = lazy(() => import("./components/FileSearch"));
+const FileSliders = lazy(() => import("./components/FileSliders"));
+const FileSpreadsheet = lazy(() => import("./components/FileSpreadsheet"));
+const FileStack = lazy(() => import("./components/FileStack"));
+const FileSymlink = lazy(() => import("./components/FileSymlink"));
+const FileTerminal = lazy(() => import("./components/FileTerminal"));
+const FileText = lazy(() => import("./components/FileText"));
+const FileType2 = lazy(() => import("./components/FileType2"));
+const FileType = lazy(() => import("./components/FileType"));
+const FileUp = lazy(() => import("./components/FileUp"));
+const FileVideo2 = lazy(() => import("./components/FileVideo2"));
+const FileVideo = lazy(() => import("./components/FileVideo"));
+const FileVolume2 = lazy(() => import("./components/FileVolume2"));
+const FileVolume = lazy(() => import("./components/FileVolume"));
+const FileWarning = lazy(() => import("./components/FileWarning"));
+const FileX2 = lazy(() => import("./components/FileX2"));
+const FileX = lazy(() => import("./components/FileX"));
+const File = lazy(() => import("./components/File"));
+const Files = lazy(() => import("./components/Files"));
+const Film = lazy(() => import("./components/Film"));
+const FilterX = lazy(() => import("./components/FilterX"));
+const Filter = lazy(() => import("./components/Filter"));
+const Fingerprint = lazy(() => import("./components/Fingerprint"));
+const FireExtinguisher = lazy(() => import("./components/FireExtinguisher"));
+const FishOff = lazy(() => import("./components/FishOff"));
+const FishSymbol = lazy(() => import("./components/FishSymbol"));
+const Fish = lazy(() => import("./components/Fish"));
+const FlagOff = lazy(() => import("./components/FlagOff"));
+const FlagTriangleLeft = lazy(() => import("./components/FlagTriangleLeft"));
+const FlagTriangleRight = lazy(() => import("./components/FlagTriangleRight"));
+const Flag = lazy(() => import("./components/Flag"));
+const FlameKindling = lazy(() => import("./components/FlameKindling"));
+const Flame = lazy(() => import("./components/Flame"));
+const FlashlightOff = lazy(() => import("./components/FlashlightOff"));
+const Flashlight = lazy(() => import("./components/Flashlight"));
+const FlaskConicalOff = lazy(() => import("./components/FlaskConicalOff"));
+const FlaskConical = lazy(() => import("./components/FlaskConical"));
+const FlaskRound = lazy(() => import("./components/FlaskRound"));
+const FlipHorizontal2 = lazy(() => import("./components/FlipHorizontal2"));
+const FlipHorizontal = lazy(() => import("./components/FlipHorizontal"));
+const FlipVertical2 = lazy(() => import("./components/FlipVertical2"));
+const FlipVertical = lazy(() => import("./components/FlipVertical"));
+const Flower2 = lazy(() => import("./components/Flower2"));
+const Flower = lazy(() => import("./components/Flower"));
+const Focus = lazy(() => import("./components/Focus"));
+const FoldHorizontal = lazy(() => import("./components/FoldHorizontal"));
+const FoldVertical = lazy(() => import("./components/FoldVertical"));
+const FolderArchive = lazy(() => import("./components/FolderArchive"));
+const FolderCheck = lazy(() => import("./components/FolderCheck"));
+const FolderClock = lazy(() => import("./components/FolderClock"));
+const FolderClosed = lazy(() => import("./components/FolderClosed"));
+const FolderCode = lazy(() => import("./components/FolderCode"));
+const FolderCog = lazy(() => import("./components/FolderCog"));
+const FolderDot = lazy(() => import("./components/FolderDot"));
+const FolderDown = lazy(() => import("./components/FolderDown"));
+const FolderGit2 = lazy(() => import("./components/FolderGit2"));
+const FolderGit = lazy(() => import("./components/FolderGit"));
+const FolderHeart = lazy(() => import("./components/FolderHeart"));
+const FolderInput = lazy(() => import("./components/FolderInput"));
+const FolderKanban = lazy(() => import("./components/FolderKanban"));
+const FolderKey = lazy(() => import("./components/FolderKey"));
+const FolderLock = lazy(() => import("./components/FolderLock"));
+const FolderMinus = lazy(() => import("./components/FolderMinus"));
+const FolderOpenDot = lazy(() => import("./components/FolderOpenDot"));
+const FolderOpen = lazy(() => import("./components/FolderOpen"));
+const FolderOutput = lazy(() => import("./components/FolderOutput"));
+const FolderPen = lazy(() => import("./components/FolderPen"));
+const FolderPlus = lazy(() => import("./components/FolderPlus"));
+const FolderRoot = lazy(() => import("./components/FolderRoot"));
+const FolderSearch2 = lazy(() => import("./components/FolderSearch2"));
+const FolderSearch = lazy(() => import("./components/FolderSearch"));
+const FolderSymlink = lazy(() => import("./components/FolderSymlink"));
+const FolderSync = lazy(() => import("./components/FolderSync"));
+const FolderTree = lazy(() => import("./components/FolderTree"));
+const FolderUp = lazy(() => import("./components/FolderUp"));
+const FolderX = lazy(() => import("./components/FolderX"));
+const Folder = lazy(() => import("./components/Folder"));
+const Folders = lazy(() => import("./components/Folders"));
+const Footprints = lazy(() => import("./components/Footprints"));
+const Forklift = lazy(() => import("./components/Forklift"));
+const Forward = lazy(() => import("./components/Forward"));
+const Frame = lazy(() => import("./components/Frame"));
+const Framer = lazy(() => import("./components/Framer"));
+const Frown = lazy(() => import("./components/Frown"));
+const Fuel = lazy(() => import("./components/Fuel"));
+const Fullscreen = lazy(() => import("./components/Fullscreen"));
+const GalleryHorizontalEnd = lazy(() => import("./components/GalleryHorizontalEnd"));
+const GalleryHorizontal = lazy(() => import("./components/GalleryHorizontal"));
+const GalleryThumbnails = lazy(() => import("./components/GalleryThumbnails"));
+const GalleryVerticalEnd = lazy(() => import("./components/GalleryVerticalEnd"));
+const GalleryVertical = lazy(() => import("./components/GalleryVertical"));
+const Gamepad2 = lazy(() => import("./components/Gamepad2"));
+const Gamepad = lazy(() => import("./components/Gamepad"));
+const Gauge = lazy(() => import("./components/Gauge"));
+const Gavel = lazy(() => import("./components/Gavel"));
+const Gem = lazy(() => import("./components/Gem"));
+const Ghost = lazy(() => import("./components/Ghost"));
+const Gift = lazy(() => import("./components/Gift"));
+const GitBranchPlus = lazy(() => import("./components/GitBranchPlus"));
+const GitBranch = lazy(() => import("./components/GitBranch"));
+const GitCommitHorizontal = lazy(() => import("./components/GitCommitHorizontal"));
+const GitCommitVertical = lazy(() => import("./components/GitCommitVertical"));
+const GitCompareArrows = lazy(() => import("./components/GitCompareArrows"));
+const GitCompare = lazy(() => import("./components/GitCompare"));
+const GitFork = lazy(() => import("./components/GitFork"));
+const GitGraph = lazy(() => import("./components/GitGraph"));
+const GitMerge = lazy(() => import("./components/GitMerge"));
+const GitPullRequestArrow = lazy(() => import("./components/GitPullRequestArrow"));
+const GitPullRequestClosed = lazy(() => import("./components/GitPullRequestClosed"));
+const GitPullRequestCreateArrow = lazy(() => import("./components/GitPullRequestCreateArrow"));
+const GitPullRequestCreate = lazy(() => import("./components/GitPullRequestCreate"));
+const GitPullRequestDraft = lazy(() => import("./components/GitPullRequestDraft"));
+const GitPullRequest = lazy(() => import("./components/GitPullRequest"));
+const Github = lazy(() => import("./components/Github"));
+const Gitlab = lazy(() => import("./components/Gitlab"));
+const GlassWater = lazy(() => import("./components/GlassWater"));
+const Glasses = lazy(() => import("./components/Glasses"));
+const GlobeLock = lazy(() => import("./components/GlobeLock"));
+const Globe = lazy(() => import("./components/Globe"));
+const Goal = lazy(() => import("./components/Goal"));
+const Grab = lazy(() => import("./components/Grab"));
+const GraduationCap = lazy(() => import("./components/GraduationCap"));
+const Grape = lazy(() => import("./components/Grape"));
+const Grid2x2Check = lazy(() => import("./components/Grid2x2Check"));
+const Grid2x2X = lazy(() => import("./components/Grid2x2X"));
+const Grid2x2 = lazy(() => import("./components/Grid2x2"));
+const Grid3x3 = lazy(() => import("./components/Grid3x3"));
+const GripHorizontal = lazy(() => import("./components/GripHorizontal"));
+const GripVertical = lazy(() => import("./components/GripVertical"));
+const Grip = lazy(() => import("./components/Grip"));
+const Group = lazy(() => import("./components/Group"));
+const Guitar = lazy(() => import("./components/Guitar"));
+const Ham = lazy(() => import("./components/Ham"));
+const Hammer = lazy(() => import("./components/Hammer"));
+const HandCoins = lazy(() => import("./components/HandCoins"));
+const HandHeart = lazy(() => import("./components/HandHeart"));
+const HandHelping = lazy(() => import("./components/HandHelping"));
+const HandMetal = lazy(() => import("./components/HandMetal"));
+const HandPlatter = lazy(() => import("./components/HandPlatter"));
+const Hand = lazy(() => import("./components/Hand"));
+const Handshake = lazy(() => import("./components/Handshake"));
+const HardDriveDownload = lazy(() => import("./components/HardDriveDownload"));
+const HardDriveUpload = lazy(() => import("./components/HardDriveUpload"));
+const HardDrive = lazy(() => import("./components/HardDrive"));
+const HardHat = lazy(() => import("./components/HardHat"));
+const Hash = lazy(() => import("./components/Hash"));
+const Haze = lazy(() => import("./components/Haze"));
+const HdmiPort = lazy(() => import("./components/HdmiPort"));
+const Heading1 = lazy(() => import("./components/Heading1"));
+const Heading2 = lazy(() => import("./components/Heading2"));
+const Heading3 = lazy(() => import("./components/Heading3"));
+const Heading4 = lazy(() => import("./components/Heading4"));
+const Heading5 = lazy(() => import("./components/Heading5"));
+const Heading6 = lazy(() => import("./components/Heading6"));
+const Heading = lazy(() => import("./components/Heading"));
+const Headphones = lazy(() => import("./components/Headphones"));
+const Headset = lazy(() => import("./components/Headset"));
+const HeartCrack = lazy(() => import("./components/HeartCrack"));
+const HeartHandshake = lazy(() => import("./components/HeartHandshake"));
+const HeartOff = lazy(() => import("./components/HeartOff"));
+const HeartPulse = lazy(() => import("./components/HeartPulse"));
+const Heart = lazy(() => import("./components/Heart"));
+const Heater = lazy(() => import("./components/Heater"));
+const Hexagon = lazy(() => import("./components/Hexagon"));
+const Highlighter = lazy(() => import("./components/Highlighter"));
+const History = lazy(() => import("./components/History"));
+const HopOff = lazy(() => import("./components/HopOff"));
+const Hop = lazy(() => import("./components/Hop"));
+const Hospital = lazy(() => import("./components/Hospital"));
+const Hotel = lazy(() => import("./components/Hotel"));
+const Hourglass = lazy(() => import("./components/Hourglass"));
+const HousePlug = lazy(() => import("./components/HousePlug"));
+const HousePlus = lazy(() => import("./components/HousePlus"));
+const House = lazy(() => import("./components/House"));
+const IceCreamBowl = lazy(() => import("./components/IceCreamBowl"));
+const IceCreamCone = lazy(() => import("./components/IceCreamCone"));
+const IdCard = lazy(() => import("./components/IdCard"));
+const ImageDown = lazy(() => import("./components/ImageDown"));
+const ImageMinus = lazy(() => import("./components/ImageMinus"));
+const ImageOff = lazy(() => import("./components/ImageOff"));
+const ImagePlay = lazy(() => import("./components/ImagePlay"));
+const ImagePlus = lazy(() => import("./components/ImagePlus"));
+const ImageUp = lazy(() => import("./components/ImageUp"));
+const Image = lazy(() => import("./components/Image"));
+const Images = lazy(() => import("./components/Images"));
+const Import = lazy(() => import("./components/Import"));
+const Inbox = lazy(() => import("./components/Inbox"));
+const IndentDecrease = lazy(() => import("./components/IndentDecrease"));
+const IndentIncrease = lazy(() => import("./components/IndentIncrease"));
+const IndianRupee = lazy(() => import("./components/IndianRupee"));
+const Infinity = lazy(() => import("./components/Infinity"));
+const Info = lazy(() => import("./components/Info"));
+const InspectionPanel = lazy(() => import("./components/InspectionPanel"));
+const Instagram = lazy(() => import("./components/Instagram"));
+const Italic = lazy(() => import("./components/Italic"));
+const IterationCcw = lazy(() => import("./components/IterationCcw"));
+const IterationCw = lazy(() => import("./components/IterationCw"));
+const JapaneseYen = lazy(() => import("./components/JapaneseYen"));
+const Joystick = lazy(() => import("./components/Joystick"));
+const Kanban = lazy(() => import("./components/Kanban"));
+const KeyRound = lazy(() => import("./components/KeyRound"));
+const KeySquare = lazy(() => import("./components/KeySquare"));
+const Key = lazy(() => import("./components/Key"));
+const KeyboardMusic = lazy(() => import("./components/KeyboardMusic"));
+const KeyboardOff = lazy(() => import("./components/KeyboardOff"));
+const Keyboard = lazy(() => import("./components/Keyboard"));
+const LampCeiling = lazy(() => import("./components/LampCeiling"));
+const LampDesk = lazy(() => import("./components/LampDesk"));
+const LampFloor = lazy(() => import("./components/LampFloor"));
+const LampWallDown = lazy(() => import("./components/LampWallDown"));
+const LampWallUp = lazy(() => import("./components/LampWallUp"));
+const Lamp = lazy(() => import("./components/Lamp"));
+const LandPlot = lazy(() => import("./components/LandPlot"));
+const Landmark = lazy(() => import("./components/Landmark"));
+const Languages = lazy(() => import("./components/Languages"));
+const LaptopMinimal = lazy(() => import("./components/LaptopMinimal"));
+const Laptop = lazy(() => import("./components/Laptop"));
+const LassoSelect = lazy(() => import("./components/LassoSelect"));
+const Lasso = lazy(() => import("./components/Lasso"));
+const Laugh = lazy(() => import("./components/Laugh"));
+const Layers2 = lazy(() => import("./components/Layers2"));
+const Layers3 = lazy(() => import("./components/Layers3"));
+const Layers = lazy(() => import("./components/Layers"));
+const LayoutDashboard = lazy(() => import("./components/LayoutDashboard"));
+const LayoutGrid = lazy(() => import("./components/LayoutGrid"));
+const LayoutList = lazy(() => import("./components/LayoutList"));
+const LayoutPanelLeft = lazy(() => import("./components/LayoutPanelLeft"));
+const LayoutPanelTop = lazy(() => import("./components/LayoutPanelTop"));
+const LayoutTemplate = lazy(() => import("./components/LayoutTemplate"));
+const Leaf = lazy(() => import("./components/Leaf"));
+const LeafyGreen = lazy(() => import("./components/LeafyGreen"));
+const Lectern = lazy(() => import("./components/Lectern"));
+const LetterText = lazy(() => import("./components/LetterText"));
+const LibraryBig = lazy(() => import("./components/LibraryBig"));
+const Library = lazy(() => import("./components/Library"));
+const LifeBuoy = lazy(() => import("./components/LifeBuoy"));
+const Ligature = lazy(() => import("./components/Ligature"));
+const LightbulbOff = lazy(() => import("./components/LightbulbOff"));
+const Lightbulb = lazy(() => import("./components/Lightbulb"));
+const Link2Off = lazy(() => import("./components/Link2Off"));
+const Link2 = lazy(() => import("./components/Link2"));
+const Link = lazy(() => import("./components/Link"));
+const Linkedin = lazy(() => import("./components/Linkedin"));
+const ListCheck = lazy(() => import("./components/ListCheck"));
+const ListChecks = lazy(() => import("./components/ListChecks"));
+const ListCollapse = lazy(() => import("./components/ListCollapse"));
+const ListEnd = lazy(() => import("./components/ListEnd"));
+const ListFilter = lazy(() => import("./components/ListFilter"));
+const ListMinus = lazy(() => import("./components/ListMinus"));
+const ListMusic = lazy(() => import("./components/ListMusic"));
+const ListOrdered = lazy(() => import("./components/ListOrdered"));
+const ListPlus = lazy(() => import("./components/ListPlus"));
+const ListRestart = lazy(() => import("./components/ListRestart"));
+const ListStart = lazy(() => import("./components/ListStart"));
+const ListTodo = lazy(() => import("./components/ListTodo"));
+const ListTree = lazy(() => import("./components/ListTree"));
+const ListVideo = lazy(() => import("./components/ListVideo"));
+const ListX = lazy(() => import("./components/ListX"));
+const List = lazy(() => import("./components/List"));
+const LoaderCircle = lazy(() => import("./components/LoaderCircle"));
+const LoaderPinwheel = lazy(() => import("./components/LoaderPinwheel"));
+const Loader = lazy(() => import("./components/Loader"));
+const LocateFixed = lazy(() => import("./components/LocateFixed"));
+const LocateOff = lazy(() => import("./components/LocateOff"));
+const Locate = lazy(() => import("./components/Locate"));
+const LockKeyholeOpen = lazy(() => import("./components/LockKeyholeOpen"));
+const LockKeyhole = lazy(() => import("./components/LockKeyhole"));
+const LockOpen = lazy(() => import("./components/LockOpen"));
+const Lock = lazy(() => import("./components/Lock"));
+const LogIn = lazy(() => import("./components/LogIn"));
+const LogOut = lazy(() => import("./components/LogOut"));
+const Logs = lazy(() => import("./components/Logs"));
+const Lollipop = lazy(() => import("./components/Lollipop"));
+const Luggage = lazy(() => import("./components/Luggage"));
+const Magnet = lazy(() => import("./components/Magnet"));
+const MailCheck = lazy(() => import("./components/MailCheck"));
+const MailMinus = lazy(() => import("./components/MailMinus"));
+const MailOpen = lazy(() => import("./components/MailOpen"));
+const MailPlus = lazy(() => import("./components/MailPlus"));
+const MailQuestion = lazy(() => import("./components/MailQuestion"));
+const MailSearch = lazy(() => import("./components/MailSearch"));
+const MailWarning = lazy(() => import("./components/MailWarning"));
+const MailX = lazy(() => import("./components/MailX"));
+const Mail = lazy(() => import("./components/Mail"));
+const Mailbox = lazy(() => import("./components/Mailbox"));
+const Mails = lazy(() => import("./components/Mails"));
+const MapPinCheckInside = lazy(() => import("./components/MapPinCheckInside"));
+const MapPinCheck = lazy(() => import("./components/MapPinCheck"));
+const MapPinHouse = lazy(() => import("./components/MapPinHouse"));
+const MapPinMinusInside = lazy(() => import("./components/MapPinMinusInside"));
+const MapPinMinus = lazy(() => import("./components/MapPinMinus"));
+const MapPinOff = lazy(() => import("./components/MapPinOff"));
+const MapPinPlusInside = lazy(() => import("./components/MapPinPlusInside"));
+const MapPinPlus = lazy(() => import("./components/MapPinPlus"));
+const MapPinXInside = lazy(() => import("./components/MapPinXInside"));
+const MapPinX = lazy(() => import("./components/MapPinX"));
+const MapPin = lazy(() => import("./components/MapPin"));
+const MapPinned = lazy(() => import("./components/MapPinned"));
+const Map = lazy(() => import("./components/Map"));
+const Martini = lazy(() => import("./components/Martini"));
+const Maximize2 = lazy(() => import("./components/Maximize2"));
+const Maximize = lazy(() => import("./components/Maximize"));
+const Medal = lazy(() => import("./components/Medal"));
+const MegaphoneOff = lazy(() => import("./components/MegaphoneOff"));
+const Megaphone = lazy(() => import("./components/Megaphone"));
+const Meh = lazy(() => import("./components/Meh"));
+const MemoryStick = lazy(() => import("./components/MemoryStick"));
+const Menu = lazy(() => import("./components/Menu"));
+const Merge = lazy(() => import("./components/Merge"));
+const MessageCircleCode = lazy(() => import("./components/MessageCircleCode"));
+const MessageCircleDashed = lazy(() => import("./components/MessageCircleDashed"));
+const MessageCircleHeart = lazy(() => import("./components/MessageCircleHeart"));
+const MessageCircleMore = lazy(() => import("./components/MessageCircleMore"));
+const MessageCircleOff = lazy(() => import("./components/MessageCircleOff"));
+const MessageCirclePlus = lazy(() => import("./components/MessageCirclePlus"));
+const MessageCircleQuestion = lazy(() => import("./components/MessageCircleQuestion"));
+const MessageCircleReply = lazy(() => import("./components/MessageCircleReply"));
+const MessageCircleWarning = lazy(() => import("./components/MessageCircleWarning"));
+const MessageCircleX = lazy(() => import("./components/MessageCircleX"));
+const MessageCircle = lazy(() => import("./components/MessageCircle"));
+const MessageSquareCode = lazy(() => import("./components/MessageSquareCode"));
+const MessageSquareDashed = lazy(() => import("./components/MessageSquareDashed"));
+const MessageSquareDiff = lazy(() => import("./components/MessageSquareDiff"));
+const MessageSquareDot = lazy(() => import("./components/MessageSquareDot"));
+const MessageSquareHeart = lazy(() => import("./components/MessageSquareHeart"));
+const MessageSquareMore = lazy(() => import("./components/MessageSquareMore"));
+const MessageSquareOff = lazy(() => import("./components/MessageSquareOff"));
+const MessageSquarePlus = lazy(() => import("./components/MessageSquarePlus"));
+const MessageSquareQuote = lazy(() => import("./components/MessageSquareQuote"));
+const MessageSquareReply = lazy(() => import("./components/MessageSquareReply"));
+const MessageSquareShare = lazy(() => import("./components/MessageSquareShare"));
+const MessageSquareText = lazy(() => import("./components/MessageSquareText"));
+const MessageSquareWarning = lazy(() => import("./components/MessageSquareWarning"));
+const MessageSquareX = lazy(() => import("./components/MessageSquareX"));
+const MessageSquare = lazy(() => import("./components/MessageSquare"));
+const MessagesSquare = lazy(() => import("./components/MessagesSquare"));
+const MicOff = lazy(() => import("./components/MicOff"));
+const MicVocal = lazy(() => import("./components/MicVocal"));
+const Mic = lazy(() => import("./components/Mic"));
+const Microchip = lazy(() => import("./components/Microchip"));
+const Microscope = lazy(() => import("./components/Microscope"));
+const Microwave = lazy(() => import("./components/Microwave"));
+const Milestone = lazy(() => import("./components/Milestone"));
+const MilkOff = lazy(() => import("./components/MilkOff"));
+const Milk = lazy(() => import("./components/Milk"));
+const Minimize2 = lazy(() => import("./components/Minimize2"));
+const Minimize = lazy(() => import("./components/Minimize"));
+const Minus = lazy(() => import("./components/Minus"));
+const MonitorCheck = lazy(() => import("./components/MonitorCheck"));
+const MonitorCog = lazy(() => import("./components/MonitorCog"));
+const MonitorDot = lazy(() => import("./components/MonitorDot"));
+const MonitorDown = lazy(() => import("./components/MonitorDown"));
+const MonitorOff = lazy(() => import("./components/MonitorOff"));
+const MonitorPause = lazy(() => import("./components/MonitorPause"));
+const MonitorPlay = lazy(() => import("./components/MonitorPlay"));
+const MonitorSmartphone = lazy(() => import("./components/MonitorSmartphone"));
+const MonitorSpeaker = lazy(() => import("./components/MonitorSpeaker"));
+const MonitorStop = lazy(() => import("./components/MonitorStop"));
+const MonitorUp = lazy(() => import("./components/MonitorUp"));
+const MonitorX = lazy(() => import("./components/MonitorX"));
+const Monitor = lazy(() => import("./components/Monitor"));
+const MoonStar = lazy(() => import("./components/MoonStar"));
+const Moon = lazy(() => import("./components/Moon"));
+const MountainSnow = lazy(() => import("./components/MountainSnow"));
+const Mountain = lazy(() => import("./components/Mountain"));
+const MouseOff = lazy(() => import("./components/MouseOff"));
+const MousePointer2 = lazy(() => import("./components/MousePointer2"));
+const MousePointerBan = lazy(() => import("./components/MousePointerBan"));
+const MousePointerClick = lazy(() => import("./components/MousePointerClick"));
+const MousePointer = lazy(() => import("./components/MousePointer"));
+const Mouse = lazy(() => import("./components/Mouse"));
+const Move3d = lazy(() => import("./components/Move3d"));
+const MoveDiagonal2 = lazy(() => import("./components/MoveDiagonal2"));
+const MoveDiagonal = lazy(() => import("./components/MoveDiagonal"));
+const MoveDownLeft = lazy(() => import("./components/MoveDownLeft"));
+const MoveDownRight = lazy(() => import("./components/MoveDownRight"));
+const MoveDown = lazy(() => import("./components/MoveDown"));
+const MoveHorizontal = lazy(() => import("./components/MoveHorizontal"));
+const MoveLeft = lazy(() => import("./components/MoveLeft"));
+const MoveRight = lazy(() => import("./components/MoveRight"));
+const MoveUpLeft = lazy(() => import("./components/MoveUpLeft"));
+const MoveUpRight = lazy(() => import("./components/MoveUpRight"));
+const MoveUp = lazy(() => import("./components/MoveUp"));
+const MoveVertical = lazy(() => import("./components/MoveVertical"));
+const Move = lazy(() => import("./components/Move"));
+const Music2 = lazy(() => import("./components/Music2"));
+const Music3 = lazy(() => import("./components/Music3"));
+const Music4 = lazy(() => import("./components/Music4"));
+const Music = lazy(() => import("./components/Music"));
+const Navigation2Off = lazy(() => import("./components/Navigation2Off"));
+const Navigation2 = lazy(() => import("./components/Navigation2"));
+const NavigationOff = lazy(() => import("./components/NavigationOff"));
+const Navigation = lazy(() => import("./components/Navigation"));
+const Network = lazy(() => import("./components/Network"));
+const Newspaper = lazy(() => import("./components/Newspaper"));
+const Nfc = lazy(() => import("./components/Nfc"));
+const NotebookPen = lazy(() => import("./components/NotebookPen"));
+const NotebookTabs = lazy(() => import("./components/NotebookTabs"));
+const NotebookText = lazy(() => import("./components/NotebookText"));
+const Notebook = lazy(() => import("./components/Notebook"));
+const NotepadTextDashed = lazy(() => import("./components/NotepadTextDashed"));
+const NotepadText = lazy(() => import("./components/NotepadText"));
+const NutOff = lazy(() => import("./components/NutOff"));
+const Nut = lazy(() => import("./components/Nut"));
+const OctagonAlert = lazy(() => import("./components/OctagonAlert"));
+const OctagonMinus = lazy(() => import("./components/OctagonMinus"));
+const OctagonPause = lazy(() => import("./components/OctagonPause"));
+const OctagonX = lazy(() => import("./components/OctagonX"));
+const Octagon = lazy(() => import("./components/Octagon"));
+const Omega = lazy(() => import("./components/Omega"));
+const Option = lazy(() => import("./components/Option"));
+const Orbit = lazy(() => import("./components/Orbit"));
+const Origami = lazy(() => import("./components/Origami"));
+const Package2 = lazy(() => import("./components/Package2"));
+const PackageCheck = lazy(() => import("./components/PackageCheck"));
+const PackageMinus = lazy(() => import("./components/PackageMinus"));
+const PackageOpen = lazy(() => import("./components/PackageOpen"));
+const PackagePlus = lazy(() => import("./components/PackagePlus"));
+const PackageSearch = lazy(() => import("./components/PackageSearch"));
+const PackageX = lazy(() => import("./components/PackageX"));
+const Package = lazy(() => import("./components/Package"));
+const PaintBucket = lazy(() => import("./components/PaintBucket"));
+const PaintRoller = lazy(() => import("./components/PaintRoller"));
+const PaintbrushVertical = lazy(() => import("./components/PaintbrushVertical"));
+const Paintbrush = lazy(() => import("./components/Paintbrush"));
+const Palette = lazy(() => import("./components/Palette"));
+const PanelBottomClose = lazy(() => import("./components/PanelBottomClose"));
+const PanelBottomDashed = lazy(() => import("./components/PanelBottomDashed"));
+const PanelBottomOpen = lazy(() => import("./components/PanelBottomOpen"));
+const PanelBottom = lazy(() => import("./components/PanelBottom"));
+const PanelLeftClose = lazy(() => import("./components/PanelLeftClose"));
+const PanelLeftDashed = lazy(() => import("./components/PanelLeftDashed"));
+const PanelLeftOpen = lazy(() => import("./components/PanelLeftOpen"));
+const PanelLeft = lazy(() => import("./components/PanelLeft"));
+const PanelRightClose = lazy(() => import("./components/PanelRightClose"));
+const PanelRightDashed = lazy(() => import("./components/PanelRightDashed"));
+const PanelRightOpen = lazy(() => import("./components/PanelRightOpen"));
+const PanelRight = lazy(() => import("./components/PanelRight"));
+const PanelTopClose = lazy(() => import("./components/PanelTopClose"));
+const PanelTopDashed = lazy(() => import("./components/PanelTopDashed"));
+const PanelTopOpen = lazy(() => import("./components/PanelTopOpen"));
+const PanelTop = lazy(() => import("./components/PanelTop"));
+const PanelsLeftBottom = lazy(() => import("./components/PanelsLeftBottom"));
+const PanelsRightBottom = lazy(() => import("./components/PanelsRightBottom"));
+const PanelsTopLeft = lazy(() => import("./components/PanelsTopLeft"));
+const Paperclip = lazy(() => import("./components/Paperclip"));
+const Parentheses = lazy(() => import("./components/Parentheses"));
+const ParkingMeter = lazy(() => import("./components/ParkingMeter"));
+const PartyPopper = lazy(() => import("./components/PartyPopper"));
+const Pause = lazy(() => import("./components/Pause"));
+const PawPrint = lazy(() => import("./components/PawPrint"));
+const PcCase = lazy(() => import("./components/PcCase"));
+const PenLine = lazy(() => import("./components/PenLine"));
+const PenOff = lazy(() => import("./components/PenOff"));
+const PenTool = lazy(() => import("./components/PenTool"));
+const Pen = lazy(() => import("./components/Pen"));
+const PencilLine = lazy(() => import("./components/PencilLine"));
+const PencilOff = lazy(() => import("./components/PencilOff"));
+const PencilRuler = lazy(() => import("./components/PencilRuler"));
+const Pencil = lazy(() => import("./components/Pencil"));
+const Pentagon = lazy(() => import("./components/Pentagon"));
+const Percent = lazy(() => import("./components/Percent"));
+const PersonStanding = lazy(() => import("./components/PersonStanding"));
+const PhilippinePeso = lazy(() => import("./components/PhilippinePeso"));
+const PhoneCall = lazy(() => import("./components/PhoneCall"));
+const PhoneForwarded = lazy(() => import("./components/PhoneForwarded"));
+const PhoneIncoming = lazy(() => import("./components/PhoneIncoming"));
+const PhoneMissed = lazy(() => import("./components/PhoneMissed"));
+const PhoneOff = lazy(() => import("./components/PhoneOff"));
+const PhoneOutgoing = lazy(() => import("./components/PhoneOutgoing"));
+const Phone = lazy(() => import("./components/Phone"));
+const Pi = lazy(() => import("./components/Pi"));
+const Piano = lazy(() => import("./components/Piano"));
+const Pickaxe = lazy(() => import("./components/Pickaxe"));
+const PictureInPicture2 = lazy(() => import("./components/PictureInPicture2"));
+const PictureInPicture = lazy(() => import("./components/PictureInPicture"));
+const PiggyBank = lazy(() => import("./components/PiggyBank"));
+const PilcrowLeft = lazy(() => import("./components/PilcrowLeft"));
+const PilcrowRight = lazy(() => import("./components/PilcrowRight"));
+const Pilcrow = lazy(() => import("./components/Pilcrow"));
+const PillBottle = lazy(() => import("./components/PillBottle"));
+const Pill = lazy(() => import("./components/Pill"));
+const PinOff = lazy(() => import("./components/PinOff"));
+const Pin = lazy(() => import("./components/Pin"));
+const Pipette = lazy(() => import("./components/Pipette"));
+const Pizza = lazy(() => import("./components/Pizza"));
+const PlaneLanding = lazy(() => import("./components/PlaneLanding"));
+const PlaneTakeoff = lazy(() => import("./components/PlaneTakeoff"));
+const Plane = lazy(() => import("./components/Plane"));
+const Play = lazy(() => import("./components/Play"));
+const Plug2 = lazy(() => import("./components/Plug2"));
+const PlugZap = lazy(() => import("./components/PlugZap"));
+const Plug = lazy(() => import("./components/Plug"));
+const Plus = lazy(() => import("./components/Plus"));
+const PocketKnife = lazy(() => import("./components/PocketKnife"));
+const Pocket = lazy(() => import("./components/Pocket"));
+const Podcast = lazy(() => import("./components/Podcast"));
+const PointerOff = lazy(() => import("./components/PointerOff"));
+const Pointer = lazy(() => import("./components/Pointer"));
+const Popcorn = lazy(() => import("./components/Popcorn"));
+const Popsicle = lazy(() => import("./components/Popsicle"));
+const PoundSterling = lazy(() => import("./components/PoundSterling"));
+const PowerOff = lazy(() => import("./components/PowerOff"));
+const Power = lazy(() => import("./components/Power"));
+const Presentation = lazy(() => import("./components/Presentation"));
+const PrinterCheck = lazy(() => import("./components/PrinterCheck"));
+const Printer = lazy(() => import("./components/Printer"));
+const Projector = lazy(() => import("./components/Projector"));
+const Proportions = lazy(() => import("./components/Proportions"));
+const Puzzle = lazy(() => import("./components/Puzzle"));
+const Pyramid = lazy(() => import("./components/Pyramid"));
+const QrCode = lazy(() => import("./components/QrCode"));
+const Quote = lazy(() => import("./components/Quote"));
+const Rabbit = lazy(() => import("./components/Rabbit"));
+const Radar = lazy(() => import("./components/Radar"));
+const Radiation = lazy(() => import("./components/Radiation"));
+const Radical = lazy(() => import("./components/Radical"));
+const RadioReceiver = lazy(() => import("./components/RadioReceiver"));
+const RadioTower = lazy(() => import("./components/RadioTower"));
+const Radio = lazy(() => import("./components/Radio"));
+const Radius = lazy(() => import("./components/Radius"));
+const RailSymbol = lazy(() => import("./components/RailSymbol"));
+const Rainbow = lazy(() => import("./components/Rainbow"));
+const Rat = lazy(() => import("./components/Rat"));
+const Ratio = lazy(() => import("./components/Ratio"));
+const ReceiptCent = lazy(() => import("./components/ReceiptCent"));
+const ReceiptEuro = lazy(() => import("./components/ReceiptEuro"));
+const ReceiptIndianRupee = lazy(() => import("./components/ReceiptIndianRupee"));
+const ReceiptJapaneseYen = lazy(() => import("./components/ReceiptJapaneseYen"));
+const ReceiptPoundSterling = lazy(() => import("./components/ReceiptPoundSterling"));
+const ReceiptRussianRuble = lazy(() => import("./components/ReceiptRussianRuble"));
+const ReceiptSwissFranc = lazy(() => import("./components/ReceiptSwissFranc"));
+const ReceiptText = lazy(() => import("./components/ReceiptText"));
+const Receipt = lazy(() => import("./components/Receipt"));
+const RectangleEllipsis = lazy(() => import("./components/RectangleEllipsis"));
+const RectangleHorizontal = lazy(() => import("./components/RectangleHorizontal"));
+const RectangleVertical = lazy(() => import("./components/RectangleVertical"));
+const Recycle = lazy(() => import("./components/Recycle"));
+const Redo2 = lazy(() => import("./components/Redo2"));
+const RedoDot = lazy(() => import("./components/RedoDot"));
+const Redo = lazy(() => import("./components/Redo"));
+const RefreshCcwDot = lazy(() => import("./components/RefreshCcwDot"));
+const RefreshCcw = lazy(() => import("./components/RefreshCcw"));
+const RefreshCwOff = lazy(() => import("./components/RefreshCwOff"));
+const RefreshCw = lazy(() => import("./components/RefreshCw"));
+const Refrigerator = lazy(() => import("./components/Refrigerator"));
+const Regex = lazy(() => import("./components/Regex"));
+const RemoveFormatting = lazy(() => import("./components/RemoveFormatting"));
+const Repeat1 = lazy(() => import("./components/Repeat1"));
+const Repeat2 = lazy(() => import("./components/Repeat2"));
+const Repeat = lazy(() => import("./components/Repeat"));
+const ReplaceAll = lazy(() => import("./components/ReplaceAll"));
+const Replace = lazy(() => import("./components/Replace"));
+const ReplyAll = lazy(() => import("./components/ReplyAll"));
+const Reply = lazy(() => import("./components/Reply"));
+const Rewind = lazy(() => import("./components/Rewind"));
+const Ribbon = lazy(() => import("./components/Ribbon"));
+const Rocket = lazy(() => import("./components/Rocket"));
+const RockingChair = lazy(() => import("./components/RockingChair"));
+const RollerCoaster = lazy(() => import("./components/RollerCoaster"));
+const Rotate3d = lazy(() => import("./components/Rotate3d"));
+const RotateCcwSquare = lazy(() => import("./components/RotateCcwSquare"));
+const RotateCcw = lazy(() => import("./components/RotateCcw"));
+const RotateCwSquare = lazy(() => import("./components/RotateCwSquare"));
+const RotateCw = lazy(() => import("./components/RotateCw"));
+const RouteOff = lazy(() => import("./components/RouteOff"));
+const Route = lazy(() => import("./components/Route"));
+const Router = lazy(() => import("./components/Router"));
+const Rows2 = lazy(() => import("./components/Rows2"));
+const Rows3 = lazy(() => import("./components/Rows3"));
+const Rows4 = lazy(() => import("./components/Rows4"));
+const Rss = lazy(() => import("./components/Rss"));
+const Ruler = lazy(() => import("./components/Ruler"));
+const RussianRuble = lazy(() => import("./components/RussianRuble"));
+const Sailboat = lazy(() => import("./components/Sailboat"));
+const Salad = lazy(() => import("./components/Salad"));
+const Sandwich = lazy(() => import("./components/Sandwich"));
+const SatelliteDish = lazy(() => import("./components/SatelliteDish"));
+const Satellite = lazy(() => import("./components/Satellite"));
+const SaveAll = lazy(() => import("./components/SaveAll"));
+const SaveOff = lazy(() => import("./components/SaveOff"));
+const Save = lazy(() => import("./components/Save"));
+const Scale3d = lazy(() => import("./components/Scale3d"));
+const Scale = lazy(() => import("./components/Scale"));
+const Scaling = lazy(() => import("./components/Scaling"));
+const ScanBarcode = lazy(() => import("./components/ScanBarcode"));
+const ScanEye = lazy(() => import("./components/ScanEye"));
+const ScanFace = lazy(() => import("./components/ScanFace"));
+const ScanLine = lazy(() => import("./components/ScanLine"));
+const ScanQrCode = lazy(() => import("./components/ScanQrCode"));
+const ScanSearch = lazy(() => import("./components/ScanSearch"));
+const ScanText = lazy(() => import("./components/ScanText"));
+const Scan = lazy(() => import("./components/Scan"));
+const School = lazy(() => import("./components/School"));
+const ScissorsLineDashed = lazy(() => import("./components/ScissorsLineDashed"));
+const Scissors = lazy(() => import("./components/Scissors"));
+const ScreenShareOff = lazy(() => import("./components/ScreenShareOff"));
+const ScreenShare = lazy(() => import("./components/ScreenShare"));
+const ScrollText = lazy(() => import("./components/ScrollText"));
+const Scroll = lazy(() => import("./components/Scroll"));
+const SearchCheck = lazy(() => import("./components/SearchCheck"));
+const SearchCode = lazy(() => import("./components/SearchCode"));
+const SearchSlash = lazy(() => import("./components/SearchSlash"));
+const SearchX = lazy(() => import("./components/SearchX"));
+const Search = lazy(() => import("./components/Search"));
+const Section = lazy(() => import("./components/Section"));
+const SendHorizontal = lazy(() => import("./components/SendHorizontal"));
+const SendToBack = lazy(() => import("./components/SendToBack"));
+const Send = lazy(() => import("./components/Send"));
+const SeparatorHorizontal = lazy(() => import("./components/SeparatorHorizontal"));
+const SeparatorVertical = lazy(() => import("./components/SeparatorVertical"));
+const ServerCog = lazy(() => import("./components/ServerCog"));
+const ServerCrash = lazy(() => import("./components/ServerCrash"));
+const ServerOff = lazy(() => import("./components/ServerOff"));
+const Server = lazy(() => import("./components/Server"));
+const Settings2 = lazy(() => import("./components/Settings2"));
+const Settings = lazy(() => import("./components/Settings"));
+const Shapes = lazy(() => import("./components/Shapes"));
+const Share2 = lazy(() => import("./components/Share2"));
+const Share = lazy(() => import("./components/Share"));
+const Sheet = lazy(() => import("./components/Sheet"));
+const Shell = lazy(() => import("./components/Shell"));
+const ShieldAlert = lazy(() => import("./components/ShieldAlert"));
+const ShieldBan = lazy(() => import("./components/ShieldBan"));
+const ShieldCheck = lazy(() => import("./components/ShieldCheck"));
+const ShieldEllipsis = lazy(() => import("./components/ShieldEllipsis"));
+const ShieldHalf = lazy(() => import("./components/ShieldHalf"));
+const ShieldMinus = lazy(() => import("./components/ShieldMinus"));
+const ShieldOff = lazy(() => import("./components/ShieldOff"));
+const ShieldPlus = lazy(() => import("./components/ShieldPlus"));
+const ShieldQuestion = lazy(() => import("./components/ShieldQuestion"));
+const ShieldX = lazy(() => import("./components/ShieldX"));
+const Shield = lazy(() => import("./components/Shield"));
+const ShipWheel = lazy(() => import("./components/ShipWheel"));
+const Ship = lazy(() => import("./components/Ship"));
+const Shirt = lazy(() => import("./components/Shirt"));
+const ShoppingBag = lazy(() => import("./components/ShoppingBag"));
+const ShoppingBasket = lazy(() => import("./components/ShoppingBasket"));
+const ShoppingCart = lazy(() => import("./components/ShoppingCart"));
+const Shovel = lazy(() => import("./components/Shovel"));
+const ShowerHead = lazy(() => import("./components/ShowerHead"));
+const Shrink = lazy(() => import("./components/Shrink"));
+const Shrub = lazy(() => import("./components/Shrub"));
+const Shuffle = lazy(() => import("./components/Shuffle"));
+const Sigma = lazy(() => import("./components/Sigma"));
+const SignalHigh = lazy(() => import("./components/SignalHigh"));
+const SignalLow = lazy(() => import("./components/SignalLow"));
+const SignalMedium = lazy(() => import("./components/SignalMedium"));
+const SignalZero = lazy(() => import("./components/SignalZero"));
+const Signal = lazy(() => import("./components/Signal"));
+const Signature = lazy(() => import("./components/Signature"));
+const SignpostBig = lazy(() => import("./components/SignpostBig"));
+const Signpost = lazy(() => import("./components/Signpost"));
+const Siren = lazy(() => import("./components/Siren"));
+const SkipBack = lazy(() => import("./components/SkipBack"));
+const SkipForward = lazy(() => import("./components/SkipForward"));
+const Skull = lazy(() => import("./components/Skull"));
+const Slack = lazy(() => import("./components/Slack"));
+const Slash = lazy(() => import("./components/Slash"));
+const Slice = lazy(() => import("./components/Slice"));
+const SlidersHorizontal = lazy(() => import("./components/SlidersHorizontal"));
+const SlidersVertical = lazy(() => import("./components/SlidersVertical"));
+const SmartphoneCharging = lazy(() => import("./components/SmartphoneCharging"));
+const SmartphoneNfc = lazy(() => import("./components/SmartphoneNfc"));
+const Smartphone = lazy(() => import("./components/Smartphone"));
+const SmilePlus = lazy(() => import("./components/SmilePlus"));
+const Smile = lazy(() => import("./components/Smile"));
+const Snail = lazy(() => import("./components/Snail"));
+const Snowflake = lazy(() => import("./components/Snowflake"));
+const Sofa = lazy(() => import("./components/Sofa"));
+const Soup = lazy(() => import("./components/Soup"));
+const Space = lazy(() => import("./components/Space"));
+const Spade = lazy(() => import("./components/Spade"));
+const Sparkle = lazy(() => import("./components/Sparkle"));
+const Sparkles = lazy(() => import("./components/Sparkles"));
+const Speaker = lazy(() => import("./components/Speaker"));
+const Speech = lazy(() => import("./components/Speech"));
+const SpellCheck2 = lazy(() => import("./components/SpellCheck2"));
+const SpellCheck = lazy(() => import("./components/SpellCheck"));
+const Spline = lazy(() => import("./components/Spline"));
+const Split = lazy(() => import("./components/Split"));
+const SprayCan = lazy(() => import("./components/SprayCan"));
+const Sprout = lazy(() => import("./components/Sprout"));
+const SquareActivity = lazy(() => import("./components/SquareActivity"));
+const SquareArrowDownLeft = lazy(() => import("./components/SquareArrowDownLeft"));
+const SquareArrowDownRight = lazy(() => import("./components/SquareArrowDownRight"));
+const SquareArrowDown = lazy(() => import("./components/SquareArrowDown"));
+const SquareArrowLeft = lazy(() => import("./components/SquareArrowLeft"));
+const SquareArrowOutDownLeft = lazy(() => import("./components/SquareArrowOutDownLeft"));
+const SquareArrowOutDownRight = lazy(() => import("./components/SquareArrowOutDownRight"));
+const SquareArrowOutUpLeft = lazy(() => import("./components/SquareArrowOutUpLeft"));
+const SquareArrowOutUpRight = lazy(() => import("./components/SquareArrowOutUpRight"));
+const SquareArrowRight = lazy(() => import("./components/SquareArrowRight"));
+const SquareArrowUpLeft = lazy(() => import("./components/SquareArrowUpLeft"));
+const SquareArrowUpRight = lazy(() => import("./components/SquareArrowUpRight"));
+const SquareArrowUp = lazy(() => import("./components/SquareArrowUp"));
+const SquareAsterisk = lazy(() => import("./components/SquareAsterisk"));
+const SquareBottomDashedScissors = lazy(() => import("./components/SquareBottomDashedScissors"));
+const SquareChartGantt = lazy(() => import("./components/SquareChartGantt"));
+const SquareCheckBig = lazy(() => import("./components/SquareCheckBig"));
+const SquareCheck = lazy(() => import("./components/SquareCheck"));
+const SquareChevronDown = lazy(() => import("./components/SquareChevronDown"));
+const SquareChevronLeft = lazy(() => import("./components/SquareChevronLeft"));
+const SquareChevronRight = lazy(() => import("./components/SquareChevronRight"));
+const SquareChevronUp = lazy(() => import("./components/SquareChevronUp"));
+const SquareCode = lazy(() => import("./components/SquareCode"));
+const SquareDashedBottomCode = lazy(() => import("./components/SquareDashedBottomCode"));
+const SquareDashedBottom = lazy(() => import("./components/SquareDashedBottom"));
+const SquareDashedKanban = lazy(() => import("./components/SquareDashedKanban"));
+const SquareDashedMousePointer = lazy(() => import("./components/SquareDashedMousePointer"));
+const SquareDivide = lazy(() => import("./components/SquareDivide"));
+const SquareDot = lazy(() => import("./components/SquareDot"));
+const SquareEqual = lazy(() => import("./components/SquareEqual"));
+const SquareFunction = lazy(() => import("./components/SquareFunction"));
+const SquareKanban = lazy(() => import("./components/SquareKanban"));
+const SquareLibrary = lazy(() => import("./components/SquareLibrary"));
+const SquareM = lazy(() => import("./components/SquareM"));
+const SquareMenu = lazy(() => import("./components/SquareMenu"));
+const SquareMinus = lazy(() => import("./components/SquareMinus"));
+const SquareMousePointer = lazy(() => import("./components/SquareMousePointer"));
+const SquareParkingOff = lazy(() => import("./components/SquareParkingOff"));
+const SquareParking = lazy(() => import("./components/SquareParking"));
+const SquarePen = lazy(() => import("./components/SquarePen"));
+const SquarePercent = lazy(() => import("./components/SquarePercent"));
+const SquarePi = lazy(() => import("./components/SquarePi"));
+const SquarePilcrow = lazy(() => import("./components/SquarePilcrow"));
+const SquarePlay = lazy(() => import("./components/SquarePlay"));
+const SquarePlus = lazy(() => import("./components/SquarePlus"));
+const SquarePower = lazy(() => import("./components/SquarePower"));
+const SquareRadical = lazy(() => import("./components/SquareRadical"));
+const SquareScissors = lazy(() => import("./components/SquareScissors"));
+const SquareSigma = lazy(() => import("./components/SquareSigma"));
+const SquareSlash = lazy(() => import("./components/SquareSlash"));
+const SquareSplitHorizontal = lazy(() => import("./components/SquareSplitHorizontal"));
+const SquareSplitVertical = lazy(() => import("./components/SquareSplitVertical"));
+const SquareSquare = lazy(() => import("./components/SquareSquare"));
+const SquareStack = lazy(() => import("./components/SquareStack"));
+const SquareTerminal = lazy(() => import("./components/SquareTerminal"));
+const SquareUserRound = lazy(() => import("./components/SquareUserRound"));
+const SquareUser = lazy(() => import("./components/SquareUser"));
+const SquareX = lazy(() => import("./components/SquareX"));
+const Square = lazy(() => import("./components/Square"));
+const Squircle = lazy(() => import("./components/Squircle"));
+const Squirrel = lazy(() => import("./components/Squirrel"));
+const Stamp = lazy(() => import("./components/Stamp"));
+const StarHalf = lazy(() => import("./components/StarHalf"));
+const StarOff = lazy(() => import("./components/StarOff"));
+const Star = lazy(() => import("./components/Star"));
+const StepBack = lazy(() => import("./components/StepBack"));
+const StepForward = lazy(() => import("./components/StepForward"));
+const Stethoscope = lazy(() => import("./components/Stethoscope"));
+const Sticker = lazy(() => import("./components/Sticker"));
+const StickyNote = lazy(() => import("./components/StickyNote"));
+const Store = lazy(() => import("./components/Store"));
+const StretchHorizontal = lazy(() => import("./components/StretchHorizontal"));
+const StretchVertical = lazy(() => import("./components/StretchVertical"));
+const Strikethrough = lazy(() => import("./components/Strikethrough"));
+const Subscript = lazy(() => import("./components/Subscript"));
+const SunDim = lazy(() => import("./components/SunDim"));
+const SunMedium = lazy(() => import("./components/SunMedium"));
+const SunMoon = lazy(() => import("./components/SunMoon"));
+const SunSnow = lazy(() => import("./components/SunSnow"));
+const Sun = lazy(() => import("./components/Sun"));
+const Sunrise = lazy(() => import("./components/Sunrise"));
+const Sunset = lazy(() => import("./components/Sunset"));
+const Superscript = lazy(() => import("./components/Superscript"));
+const SwatchBook = lazy(() => import("./components/SwatchBook"));
+const SwissFranc = lazy(() => import("./components/SwissFranc"));
+const SwitchCamera = lazy(() => import("./components/SwitchCamera"));
+const Sword = lazy(() => import("./components/Sword"));
+const Swords = lazy(() => import("./components/Swords"));
+const Syringe = lazy(() => import("./components/Syringe"));
+const Table2 = lazy(() => import("./components/Table2"));
+const TableCellsMerge = lazy(() => import("./components/TableCellsMerge"));
+const TableCellsSplit = lazy(() => import("./components/TableCellsSplit"));
+const TableColumnsSplit = lazy(() => import("./components/TableColumnsSplit"));
+const TableOfContents = lazy(() => import("./components/TableOfContents"));
+const TableProperties = lazy(() => import("./components/TableProperties"));
+const TableRowsSplit = lazy(() => import("./components/TableRowsSplit"));
+const Table = lazy(() => import("./components/Table"));
+const TabletSmartphone = lazy(() => import("./components/TabletSmartphone"));
+const Tablet = lazy(() => import("./components/Tablet"));
+const Tablets = lazy(() => import("./components/Tablets"));
+const Tag = lazy(() => import("./components/Tag"));
+const Tags = lazy(() => import("./components/Tags"));
+const Tally1 = lazy(() => import("./components/Tally1"));
+const Tally2 = lazy(() => import("./components/Tally2"));
+const Tally3 = lazy(() => import("./components/Tally3"));
+const Tally4 = lazy(() => import("./components/Tally4"));
+const Tally5 = lazy(() => import("./components/Tally5"));
+const Tangent = lazy(() => import("./components/Tangent"));
+const Target = lazy(() => import("./components/Target"));
+const Telescope = lazy(() => import("./components/Telescope"));
+const TentTree = lazy(() => import("./components/TentTree"));
+const Tent = lazy(() => import("./components/Tent"));
+const Terminal = lazy(() => import("./components/Terminal"));
+const TestTubeDiagonal = lazy(() => import("./components/TestTubeDiagonal"));
+const TestTube = lazy(() => import("./components/TestTube"));
+const TestTubes = lazy(() => import("./components/TestTubes"));
+const TextCursorInput = lazy(() => import("./components/TextCursorInput"));
+const TextCursor = lazy(() => import("./components/TextCursor"));
+const TextQuote = lazy(() => import("./components/TextQuote"));
+const TextSearch = lazy(() => import("./components/TextSearch"));
+const TextSelect = lazy(() => import("./components/TextSelect"));
+const Text = lazy(() => import("./components/Text"));
+const Theater = lazy(() => import("./components/Theater"));
+const ThermometerSnowflake = lazy(() => import("./components/ThermometerSnowflake"));
+const ThermometerSun = lazy(() => import("./components/ThermometerSun"));
+const Thermometer = lazy(() => import("./components/Thermometer"));
+const ThumbsDown = lazy(() => import("./components/ThumbsDown"));
+const ThumbsUp = lazy(() => import("./components/ThumbsUp"));
+const TicketCheck = lazy(() => import("./components/TicketCheck"));
+const TicketMinus = lazy(() => import("./components/TicketMinus"));
+const TicketPercent = lazy(() => import("./components/TicketPercent"));
+const TicketPlus = lazy(() => import("./components/TicketPlus"));
+const TicketSlash = lazy(() => import("./components/TicketSlash"));
+const TicketX = lazy(() => import("./components/TicketX"));
+const Ticket = lazy(() => import("./components/Ticket"));
+const TicketsPlane = lazy(() => import("./components/TicketsPlane"));
+const Tickets = lazy(() => import("./components/Tickets"));
+const TimerOff = lazy(() => import("./components/TimerOff"));
+const TimerReset = lazy(() => import("./components/TimerReset"));
+const Timer = lazy(() => import("./components/Timer"));
+const ToggleLeft = lazy(() => import("./components/ToggleLeft"));
+const ToggleRight = lazy(() => import("./components/ToggleRight"));
+const Tornado = lazy(() => import("./components/Tornado"));
+const Torus = lazy(() => import("./components/Torus"));
+const TouchpadOff = lazy(() => import("./components/TouchpadOff"));
+const Touchpad = lazy(() => import("./components/Touchpad"));
+const TowerControl = lazy(() => import("./components/TowerControl"));
+const ToyBrick = lazy(() => import("./components/ToyBrick"));
+const Tractor = lazy(() => import("./components/Tractor"));
+const TrafficCone = lazy(() => import("./components/TrafficCone"));
+const TrainFrontTunnel = lazy(() => import("./components/TrainFrontTunnel"));
+const TrainFront = lazy(() => import("./components/TrainFront"));
+const TrainTrack = lazy(() => import("./components/TrainTrack"));
+const TramFront = lazy(() => import("./components/TramFront"));
+const Trash2 = lazy(() => import("./components/Trash2"));
+const Trash = lazy(() => import("./components/Trash"));
+const TreeDeciduous = lazy(() => import("./components/TreeDeciduous"));
+const TreePalm = lazy(() => import("./components/TreePalm"));
+const TreePine = lazy(() => import("./components/TreePine"));
+const Trees = lazy(() => import("./components/Trees"));
+const Trello = lazy(() => import("./components/Trello"));
+const TrendingDown = lazy(() => import("./components/TrendingDown"));
+const TrendingUpDown = lazy(() => import("./components/TrendingUpDown"));
+const TrendingUp = lazy(() => import("./components/TrendingUp"));
+const TriangleAlert = lazy(() => import("./components/TriangleAlert"));
+const TriangleRight = lazy(() => import("./components/TriangleRight"));
+const Triangle = lazy(() => import("./components/Triangle"));
+const Trophy = lazy(() => import("./components/Trophy"));
+const Truck = lazy(() => import("./components/Truck"));
+const Turtle = lazy(() => import("./components/Turtle"));
+const TvMinimalPlay = lazy(() => import("./components/TvMinimalPlay"));
+const TvMinimal = lazy(() => import("./components/TvMinimal"));
+const Tv = lazy(() => import("./components/Tv"));
+const Twitch = lazy(() => import("./components/Twitch"));
+const Twitter = lazy(() => import("./components/Twitter"));
+const TypeOutline = lazy(() => import("./components/TypeOutline"));
+const Type = lazy(() => import("./components/Type"));
+const UmbrellaOff = lazy(() => import("./components/UmbrellaOff"));
+const Umbrella = lazy(() => import("./components/Umbrella"));
+const Underline = lazy(() => import("./components/Underline"));
+const Undo2 = lazy(() => import("./components/Undo2"));
+const UndoDot = lazy(() => import("./components/UndoDot"));
+const Undo = lazy(() => import("./components/Undo"));
+const UnfoldHorizontal = lazy(() => import("./components/UnfoldHorizontal"));
+const UnfoldVertical = lazy(() => import("./components/UnfoldVertical"));
+const Ungroup = lazy(() => import("./components/Ungroup"));
+const University = lazy(() => import("./components/University"));
+const Unlink2 = lazy(() => import("./components/Unlink2"));
+const Unlink = lazy(() => import("./components/Unlink"));
+const Unplug = lazy(() => import("./components/Unplug"));
+const Upload = lazy(() => import("./components/Upload"));
+const Usb = lazy(() => import("./components/Usb"));
+const UserCheck = lazy(() => import("./components/UserCheck"));
+const UserCog = lazy(() => import("./components/UserCog"));
+const UserMinus = lazy(() => import("./components/UserMinus"));
+const UserPen = lazy(() => import("./components/UserPen"));
+const UserPlus = lazy(() => import("./components/UserPlus"));
+const UserRoundCheck = lazy(() => import("./components/UserRoundCheck"));
+const UserRoundCog = lazy(() => import("./components/UserRoundCog"));
+const UserRoundMinus = lazy(() => import("./components/UserRoundMinus"));
+const UserRoundPen = lazy(() => import("./components/UserRoundPen"));
+const UserRoundPlus = lazy(() => import("./components/UserRoundPlus"));
+const UserRoundSearch = lazy(() => import("./components/UserRoundSearch"));
+const UserRoundX = lazy(() => import("./components/UserRoundX"));
+const UserRound = lazy(() => import("./components/UserRound"));
+const UserSearch = lazy(() => import("./components/UserSearch"));
+const UserX = lazy(() => import("./components/UserX"));
+const User = lazy(() => import("./components/User"));
+const UsersRound = lazy(() => import("./components/UsersRound"));
+const Users = lazy(() => import("./components/Users"));
+const UtensilsCrossed = lazy(() => import("./components/UtensilsCrossed"));
+const Utensils = lazy(() => import("./components/Utensils"));
+const UtilityPole = lazy(() => import("./components/UtilityPole"));
+const Variable = lazy(() => import("./components/Variable"));
+const Vault = lazy(() => import("./components/Vault"));
+const Vegan = lazy(() => import("./components/Vegan"));
+const VenetianMask = lazy(() => import("./components/VenetianMask"));
+const VibrateOff = lazy(() => import("./components/VibrateOff"));
+const Vibrate = lazy(() => import("./components/Vibrate"));
+const VideoOff = lazy(() => import("./components/VideoOff"));
+const Video = lazy(() => import("./components/Video"));
+const Videotape = lazy(() => import("./components/Videotape"));
+const View = lazy(() => import("./components/View"));
+const Voicemail = lazy(() => import("./components/Voicemail"));
+const Volume1 = lazy(() => import("./components/Volume1"));
+const Volume2 = lazy(() => import("./components/Volume2"));
+const VolumeOff = lazy(() => import("./components/VolumeOff"));
+const VolumeX = lazy(() => import("./components/VolumeX"));
+const Volume = lazy(() => import("./components/Volume"));
+const Vote = lazy(() => import("./components/Vote"));
+const WalletCards = lazy(() => import("./components/WalletCards"));
+const WalletMinimal = lazy(() => import("./components/WalletMinimal"));
+const Wallet = lazy(() => import("./components/Wallet"));
+const Wallpaper = lazy(() => import("./components/Wallpaper"));
+const WandSparkles = lazy(() => import("./components/WandSparkles"));
+const Wand = lazy(() => import("./components/Wand"));
+const Warehouse = lazy(() => import("./components/Warehouse"));
+const WashingMachine = lazy(() => import("./components/WashingMachine"));
+const Watch = lazy(() => import("./components/Watch"));
+const Waves = lazy(() => import("./components/Waves"));
+const Waypoints = lazy(() => import("./components/Waypoints"));
+const Webcam = lazy(() => import("./components/Webcam"));
+const WebhookOff = lazy(() => import("./components/WebhookOff"));
+const Webhook = lazy(() => import("./components/Webhook"));
+const Weight = lazy(() => import("./components/Weight"));
+const WheatOff = lazy(() => import("./components/WheatOff"));
+const Wheat = lazy(() => import("./components/Wheat"));
+const WholeWord = lazy(() => import("./components/WholeWord"));
+const WifiHigh = lazy(() => import("./components/WifiHigh"));
+const WifiLow = lazy(() => import("./components/WifiLow"));
+const WifiOff = lazy(() => import("./components/WifiOff"));
+const WifiZero = lazy(() => import("./components/WifiZero"));
+const Wifi = lazy(() => import("./components/Wifi"));
+const Wind = lazy(() => import("./components/Wind"));
+const WineOff = lazy(() => import("./components/WineOff"));
+const Wine = lazy(() => import("./components/Wine"));
+const Workflow = lazy(() => import("./components/Workflow"));
+const Worm = lazy(() => import("./components/Worm"));
+const WrapText = lazy(() => import("./components/WrapText"));
+const Wrench = lazy(() => import("./components/Wrench"));
+const X = lazy(() => import("./components/X"));
+const Youtube = lazy(() => import("./components/Youtube"));
+const ZapOff = lazy(() => import("./components/ZapOff"));
+const Zap = lazy(() => import("./components/Zap"));
+const ZoomIn = lazy(() => import("./components/ZoomIn"));
+const ZoomOut = lazy(() => import("./components/ZoomOut"));
+
+export default [
+  { label: "AArrowDown", component: AArrowDown },
+  { label: "AArrowUp", component: AArrowUp },
+  { label: "ALargeSmall", component: ALargeSmall },
+  { label: "Accessibility", component: Accessibility },
+  { label: "Activity", component: Activity },
+  { label: "AirVent", component: AirVent },
+  { label: "Airplay", component: Airplay },
+  { label: "AlarmClockCheck", component: AlarmClockCheck },
+  { label: "AlarmClockMinus", component: AlarmClockMinus },
+  { label: "AlarmClockOff", component: AlarmClockOff },
+  { label: "AlarmClockPlus", component: AlarmClockPlus },
+  { label: "AlarmClock", component: AlarmClock },
+  { label: "AlarmSmoke", component: AlarmSmoke },
+  { label: "Album", component: Album },
+  { label: "AlignCenterHorizontal", component: AlignCenterHorizontal },
+  { label: "AlignCenterVertical", component: AlignCenterVertical },
+  { label: "AlignCenter", component: AlignCenter },
+  { label: "AlignEndHorizontal", component: AlignEndHorizontal },
+  { label: "AlignEndVertical", component: AlignEndVertical },
+  { label: "AlignHorizontalDistributeCenter", component: AlignHorizontalDistributeCenter },
+  { label: "AlignHorizontalDistributeEnd", component: AlignHorizontalDistributeEnd },
+  { label: "AlignHorizontalDistributeStart", component: AlignHorizontalDistributeStart },
+  { label: "AlignHorizontalJustifyCenter", component: AlignHorizontalJustifyCenter },
+  { label: "AlignHorizontalJustifyEnd", component: AlignHorizontalJustifyEnd },
+  { label: "AlignHorizontalJustifyStart", component: AlignHorizontalJustifyStart },
+  { label: "AlignHorizontalSpaceAround", component: AlignHorizontalSpaceAround },
+  { label: "AlignHorizontalSpaceBetween", component: AlignHorizontalSpaceBetween },
+  { label: "AlignJustify", component: AlignJustify },
+  { label: "AlignLeft", component: AlignLeft },
+  { label: "AlignRight", component: AlignRight },
+  { label: "AlignStartHorizontal", component: AlignStartHorizontal },
+  { label: "AlignStartVertical", component: AlignStartVertical },
+  { label: "AlignVerticalDistributeCenter", component: AlignVerticalDistributeCenter },
+  { label: "AlignVerticalDistributeEnd", component: AlignVerticalDistributeEnd },
+  { label: "AlignVerticalDistributeStart", component: AlignVerticalDistributeStart },
+  { label: "AlignVerticalJustifyCenter", component: AlignVerticalJustifyCenter },
+  { label: "AlignVerticalJustifyEnd", component: AlignVerticalJustifyEnd },
+  { label: "AlignVerticalJustifyStart", component: AlignVerticalJustifyStart },
+  { label: "AlignVerticalSpaceAround", component: AlignVerticalSpaceAround },
+  { label: "AlignVerticalSpaceBetween", component: AlignVerticalSpaceBetween },
+  { label: "Ambulance", component: Ambulance },
+  { label: "Ampersand", component: Ampersand },
+  { label: "Ampersands", component: Ampersands },
+  { label: "Amphora", component: Amphora },
+  { label: "Anchor", component: Anchor },
+  { label: "Angry", component: Angry },
+  { label: "Annoyed", component: Annoyed },
+  { label: "Antenna", component: Antenna },
+  { label: "Anvil", component: Anvil },
+  { label: "Aperture", component: Aperture },
+  { label: "AppWindowMac", component: AppWindowMac },
+  { label: "AppWindow", component: AppWindow },
+  { label: "Apple", component: Apple },
+  { label: "ArchiveRestore", component: ArchiveRestore },
+  { label: "ArchiveX", component: ArchiveX },
+  { label: "Archive", component: Archive },
+  { label: "Armchair", component: Armchair },
+  { label: "ArrowBigDownDash", component: ArrowBigDownDash },
+  { label: "ArrowBigDown", component: ArrowBigDown },
+  { label: "ArrowBigLeftDash", component: ArrowBigLeftDash },
+  { label: "ArrowBigLeft", component: ArrowBigLeft },
+  { label: "ArrowBigRightDash", component: ArrowBigRightDash },
+  { label: "ArrowBigRight", component: ArrowBigRight },
+  { label: "ArrowBigUpDash", component: ArrowBigUpDash },
+  { label: "ArrowBigUp", component: ArrowBigUp },
+  { label: "ArrowDown01", component: ArrowDown01 },
+  { label: "ArrowDown10", component: ArrowDown10 },
+  { label: "ArrowDownAZ", component: ArrowDownAZ },
+  { label: "ArrowDownFromLine", component: ArrowDownFromLine },
+  { label: "ArrowDownLeft", component: ArrowDownLeft },
+  { label: "ArrowDownNarrowWide", component: ArrowDownNarrowWide },
+  { label: "ArrowDownRight", component: ArrowDownRight },
+  { label: "ArrowDownToDot", component: ArrowDownToDot },
+  { label: "ArrowDownToLine", component: ArrowDownToLine },
+  { label: "ArrowDownUp", component: ArrowDownUp },
+  { label: "ArrowDownWideNarrow", component: ArrowDownWideNarrow },
+  { label: "ArrowDownZA", component: ArrowDownZA },
+  { label: "ArrowDown", component: ArrowDown },
+  { label: "ArrowLeftFromLine", component: ArrowLeftFromLine },
+  { label: "ArrowLeftRight", component: ArrowLeftRight },
+  { label: "ArrowLeftToLine", component: ArrowLeftToLine },
+  { label: "ArrowLeft", component: ArrowLeft },
+  { label: "ArrowRightFromLine", component: ArrowRightFromLine },
+  { label: "ArrowRightLeft", component: ArrowRightLeft },
+  { label: "ArrowRightToLine", component: ArrowRightToLine },
+  { label: "ArrowRight", component: ArrowRight },
+  { label: "ArrowUp01", component: ArrowUp01 },
+  { label: "ArrowUp10", component: ArrowUp10 },
+  { label: "ArrowUpAZ", component: ArrowUpAZ },
+  { label: "ArrowUpDown", component: ArrowUpDown },
+  { label: "ArrowUpFromDot", component: ArrowUpFromDot },
+  { label: "ArrowUpFromLine", component: ArrowUpFromLine },
+  { label: "ArrowUpLeft", component: ArrowUpLeft },
+  { label: "ArrowUpNarrowWide", component: ArrowUpNarrowWide },
+  { label: "ArrowUpRight", component: ArrowUpRight },
+  { label: "ArrowUpToLine", component: ArrowUpToLine },
+  { label: "ArrowUpWideNarrow", component: ArrowUpWideNarrow },
+  { label: "ArrowUpZA", component: ArrowUpZA },
+  { label: "ArrowUp", component: ArrowUp },
+  { label: "ArrowsUpFromLine", component: ArrowsUpFromLine },
+  { label: "Asterisk", component: Asterisk },
+  { label: "AtSign", component: AtSign },
+  { label: "Atom", component: Atom },
+  { label: "AudioLines", component: AudioLines },
+  { label: "AudioWaveform", component: AudioWaveform },
+  { label: "Award", component: Award },
+  { label: "Axe", component: Axe },
+  { label: "Axis3d", component: Axis3d },
+  { label: "Baby", component: Baby },
+  { label: "Backpack", component: Backpack },
+  { label: "BadgeAlert", component: BadgeAlert },
+  { label: "BadgeCent", component: BadgeCent },
+  { label: "BadgeCheck", component: BadgeCheck },
+  { label: "BadgeDollarSign", component: BadgeDollarSign },
+  { label: "BadgeEuro", component: BadgeEuro },
+  { label: "BadgeHelp", component: BadgeHelp },
+  { label: "BadgeIndianRupee", component: BadgeIndianRupee },
+  { label: "BadgeInfo", component: BadgeInfo },
+  { label: "BadgeJapaneseYen", component: BadgeJapaneseYen },
+  { label: "BadgeMinus", component: BadgeMinus },
+  { label: "BadgePercent", component: BadgePercent },
+  { label: "BadgePlus", component: BadgePlus },
+  { label: "BadgePoundSterling", component: BadgePoundSterling },
+  { label: "BadgeRussianRuble", component: BadgeRussianRuble },
+  { label: "BadgeSwissFranc", component: BadgeSwissFranc },
+  { label: "BadgeX", component: BadgeX },
+  { label: "Badge", component: Badge },
+  { label: "BaggageClaim", component: BaggageClaim },
+  { label: "Ban", component: Ban },
+  { label: "Banana", component: Banana },
+  { label: "Bandage", component: Bandage },
+  { label: "Banknote", component: Banknote },
+  { label: "Barcode", component: Barcode },
+  { label: "Baseline", component: Baseline },
+  { label: "Bath", component: Bath },
+  { label: "BatteryCharging", component: BatteryCharging },
+  { label: "BatteryFull", component: BatteryFull },
+  { label: "BatteryLow", component: BatteryLow },
+  { label: "BatteryMedium", component: BatteryMedium },
+  { label: "BatteryWarning", component: BatteryWarning },
+  { label: "Battery", component: Battery },
+  { label: "Beaker", component: Beaker },
+  { label: "BeanOff", component: BeanOff },
+  { label: "Bean", component: Bean },
+  { label: "BedDouble", component: BedDouble },
+  { label: "BedSingle", component: BedSingle },
+  { label: "Bed", component: Bed },
+  { label: "Beef", component: Beef },
+  { label: "BeerOff", component: BeerOff },
+  { label: "Beer", component: Beer },
+  { label: "BellDot", component: BellDot },
+  { label: "BellElectric", component: BellElectric },
+  { label: "BellMinus", component: BellMinus },
+  { label: "BellOff", component: BellOff },
+  { label: "BellPlus", component: BellPlus },
+  { label: "BellRing", component: BellRing },
+  { label: "Bell", component: Bell },
+  { label: "BetweenHorizontalEnd", component: BetweenHorizontalEnd },
+  { label: "BetweenHorizontalStart", component: BetweenHorizontalStart },
+  { label: "BetweenVerticalEnd", component: BetweenVerticalEnd },
+  { label: "BetweenVerticalStart", component: BetweenVerticalStart },
+  { label: "BicepsFlexed", component: BicepsFlexed },
+  { label: "Bike", component: Bike },
+  { label: "Binary", component: Binary },
+  { label: "Binoculars", component: Binoculars },
+  { label: "Biohazard", component: Biohazard },
+  { label: "Bird", component: Bird },
+  { label: "Bitcoin", component: Bitcoin },
+  { label: "Blend", component: Blend },
+  { label: "Blinds", component: Blinds },
+  { label: "Blocks", component: Blocks },
+  { label: "BluetoothConnected", component: BluetoothConnected },
+  { label: "BluetoothOff", component: BluetoothOff },
+  { label: "BluetoothSearching", component: BluetoothSearching },
+  { label: "Bluetooth", component: Bluetooth },
+  { label: "Bold", component: Bold },
+  { label: "Bolt", component: Bolt },
+  { label: "Bomb", component: Bomb },
+  { label: "Bone", component: Bone },
+  { label: "BookA", component: BookA },
+  { label: "BookAudio", component: BookAudio },
+  { label: "BookCheck", component: BookCheck },
+  { label: "BookCopy", component: BookCopy },
+  { label: "BookDashed", component: BookDashed },
+  { label: "BookDown", component: BookDown },
+  { label: "BookHeadphones", component: BookHeadphones },
+  { label: "BookHeart", component: BookHeart },
+  { label: "BookImage", component: BookImage },
+  { label: "BookKey", component: BookKey },
+  { label: "BookLock", component: BookLock },
+  { label: "BookMarked", component: BookMarked },
+  { label: "BookMinus", component: BookMinus },
+  { label: "BookOpenCheck", component: BookOpenCheck },
+  { label: "BookOpenText", component: BookOpenText },
+  { label: "BookOpen", component: BookOpen },
+  { label: "BookPlus", component: BookPlus },
+  { label: "BookText", component: BookText },
+  { label: "BookType", component: BookType },
+  { label: "BookUp2", component: BookUp2 },
+  { label: "BookUp", component: BookUp },
+  { label: "BookUser", component: BookUser },
+  { label: "BookX", component: BookX },
+  { label: "Book", component: Book },
+  { label: "BookmarkCheck", component: BookmarkCheck },
+  { label: "BookmarkMinus", component: BookmarkMinus },
+  { label: "BookmarkPlus", component: BookmarkPlus },
+  { label: "BookmarkX", component: BookmarkX },
+  { label: "Bookmark", component: Bookmark },
+  { label: "BoomBox", component: BoomBox },
+  { label: "BotMessageSquare", component: BotMessageSquare },
+  { label: "BotOff", component: BotOff },
+  { label: "Bot", component: Bot },
+  { label: "BoxSelect", component: BoxSelect },
+  { label: "Box", component: Box },
+  { label: "Boxes", component: Boxes },
+  { label: "Braces", component: Braces },
+  { label: "Brackets", component: Brackets },
+  { label: "BrainCircuit", component: BrainCircuit },
+  { label: "BrainCog", component: BrainCog },
+  { label: "Brain", component: Brain },
+  { label: "BrickWall", component: BrickWall },
+  { label: "BriefcaseBusiness", component: BriefcaseBusiness },
+  { label: "BriefcaseMedical", component: BriefcaseMedical },
+  { label: "Briefcase", component: Briefcase },
+  { label: "BringToFront", component: BringToFront },
+  { label: "Brush", component: Brush },
+  { label: "BugOff", component: BugOff },
+  { label: "BugPlay", component: BugPlay },
+  { label: "Bug", component: Bug },
+  { label: "Building2", component: Building2 },
+  { label: "Building", component: Building },
+  { label: "BusFront", component: BusFront },
+  { label: "Bus", component: Bus },
+  { label: "CableCar", component: CableCar },
+  { label: "Cable", component: Cable },
+  { label: "CakeSlice", component: CakeSlice },
+  { label: "Cake", component: Cake },
+  { label: "Calculator", component: Calculator },
+  { label: "CalendarArrowDown", component: CalendarArrowDown },
+  { label: "CalendarArrowUp", component: CalendarArrowUp },
+  { label: "CalendarCheck2", component: CalendarCheck2 },
+  { label: "CalendarCheck", component: CalendarCheck },
+  { label: "CalendarClock", component: CalendarClock },
+  { label: "CalendarCog", component: CalendarCog },
+  { label: "CalendarDays", component: CalendarDays },
+  { label: "CalendarFold", component: CalendarFold },
+  { label: "CalendarHeart", component: CalendarHeart },
+  { label: "CalendarMinus2", component: CalendarMinus2 },
+  { label: "CalendarMinus", component: CalendarMinus },
+  { label: "CalendarOff", component: CalendarOff },
+  { label: "CalendarPlus2", component: CalendarPlus2 },
+  { label: "CalendarPlus", component: CalendarPlus },
+  { label: "CalendarRange", component: CalendarRange },
+  { label: "CalendarSearch", component: CalendarSearch },
+  { label: "CalendarX2", component: CalendarX2 },
+  { label: "CalendarX", component: CalendarX },
+  { label: "Calendar", component: Calendar },
+  { label: "CameraOff", component: CameraOff },
+  { label: "Camera", component: Camera },
+  { label: "CandyCane", component: CandyCane },
+  { label: "CandyOff", component: CandyOff },
+  { label: "Candy", component: Candy },
+  { label: "Cannabis", component: Cannabis },
+  { label: "CaptionsOff", component: CaptionsOff },
+  { label: "Captions", component: Captions },
+  { label: "CarFront", component: CarFront },
+  { label: "CarTaxiFront", component: CarTaxiFront },
+  { label: "Car", component: Car },
+  { label: "Caravan", component: Caravan },
+  { label: "Carrot", component: Carrot },
+  { label: "CaseLower", component: CaseLower },
+  { label: "CaseSensitive", component: CaseSensitive },
+  { label: "CaseUpper", component: CaseUpper },
+  { label: "CassetteTape", component: CassetteTape },
+  { label: "Cast", component: Cast },
+  { label: "Castle", component: Castle },
+  { label: "Cat", component: Cat },
+  { label: "Cctv", component: Cctv },
+  { label: "ChartArea", component: ChartArea },
+  { label: "ChartBarBig", component: ChartBarBig },
+  { label: "ChartBarDecreasing", component: ChartBarDecreasing },
+  { label: "ChartBarIncreasing", component: ChartBarIncreasing },
+  { label: "ChartBarStacked", component: ChartBarStacked },
+  { label: "ChartBar", component: ChartBar },
+  { label: "ChartCandlestick", component: ChartCandlestick },
+  { label: "ChartColumnBig", component: ChartColumnBig },
+  { label: "ChartColumnDecreasing", component: ChartColumnDecreasing },
+  { label: "ChartColumnIncreasing", component: ChartColumnIncreasing },
+  { label: "ChartColumnStacked", component: ChartColumnStacked },
+  { label: "ChartColumn", component: ChartColumn },
+  { label: "ChartGantt", component: ChartGantt },
+  { label: "ChartLine", component: ChartLine },
+  { label: "ChartNetwork", component: ChartNetwork },
+  { label: "ChartNoAxesColumnDecreasing", component: ChartNoAxesColumnDecreasing },
+  { label: "ChartNoAxesColumnIncreasing", component: ChartNoAxesColumnIncreasing },
+  { label: "ChartNoAxesColumn", component: ChartNoAxesColumn },
+  { label: "ChartNoAxesCombined", component: ChartNoAxesCombined },
+  { label: "ChartNoAxesGantt", component: ChartNoAxesGantt },
+  { label: "ChartPie", component: ChartPie },
+  { label: "ChartScatter", component: ChartScatter },
+  { label: "ChartSpline", component: ChartSpline },
+  { label: "CheckCheck", component: CheckCheck },
+  { label: "Check", component: Check },
+  { label: "ChefHat", component: ChefHat },
+  { label: "Cherry", component: Cherry },
+  { label: "ChevronDown", component: ChevronDown },
+  { label: "ChevronFirst", component: ChevronFirst },
+  { label: "ChevronLast", component: ChevronLast },
+  { label: "ChevronLeft", component: ChevronLeft },
+  { label: "ChevronRight", component: ChevronRight },
+  { label: "ChevronUp", component: ChevronUp },
+  { label: "ChevronsDownUp", component: ChevronsDownUp },
+  { label: "ChevronsDown", component: ChevronsDown },
+  { label: "ChevronsLeftRightEllipsis", component: ChevronsLeftRightEllipsis },
+  { label: "ChevronsLeftRight", component: ChevronsLeftRight },
+  { label: "ChevronsLeft", component: ChevronsLeft },
+  { label: "ChevronsRightLeft", component: ChevronsRightLeft },
+  { label: "ChevronsRight", component: ChevronsRight },
+  { label: "ChevronsUpDown", component: ChevronsUpDown },
+  { label: "ChevronsUp", component: ChevronsUp },
+  { label: "Chrome", component: Chrome },
+  { label: "Church", component: Church },
+  { label: "CigaretteOff", component: CigaretteOff },
+  { label: "Cigarette", component: Cigarette },
+  { label: "CircleAlert", component: CircleAlert },
+  { label: "CircleArrowDown", component: CircleArrowDown },
+  { label: "CircleArrowLeft", component: CircleArrowLeft },
+  { label: "CircleArrowOutDownLeft", component: CircleArrowOutDownLeft },
+  { label: "CircleArrowOutDownRight", component: CircleArrowOutDownRight },
+  { label: "CircleArrowOutUpLeft", component: CircleArrowOutUpLeft },
+  { label: "CircleArrowOutUpRight", component: CircleArrowOutUpRight },
+  { label: "CircleArrowRight", component: CircleArrowRight },
+  { label: "CircleArrowUp", component: CircleArrowUp },
+  { label: "CircleCheckBig", component: CircleCheckBig },
+  { label: "CircleCheck", component: CircleCheck },
+  { label: "CircleChevronDown", component: CircleChevronDown },
+  { label: "CircleChevronLeft", component: CircleChevronLeft },
+  { label: "CircleChevronRight", component: CircleChevronRight },
+  { label: "CircleChevronUp", component: CircleChevronUp },
+  { label: "CircleDashed", component: CircleDashed },
+  { label: "CircleDivide", component: CircleDivide },
+  { label: "CircleDollarSign", component: CircleDollarSign },
+  { label: "CircleDotDashed", component: CircleDotDashed },
+  { label: "CircleDot", component: CircleDot },
+  { label: "CircleEllipsis", component: CircleEllipsis },
+  { label: "CircleEqual", component: CircleEqual },
+  { label: "CircleFadingArrowUp", component: CircleFadingArrowUp },
+  { label: "CircleFadingPlus", component: CircleFadingPlus },
+  { label: "CircleGauge", component: CircleGauge },
+  { label: "CircleHelp", component: CircleHelp },
+  { label: "CircleMinus", component: CircleMinus },
+  { label: "CircleOff", component: CircleOff },
+  { label: "CircleParkingOff", component: CircleParkingOff },
+  { label: "CircleParking", component: CircleParking },
+  { label: "CirclePause", component: CirclePause },
+  { label: "CirclePercent", component: CirclePercent },
+  { label: "CirclePlay", component: CirclePlay },
+  { label: "CirclePlus", component: CirclePlus },
+  { label: "CirclePower", component: CirclePower },
+  { label: "CircleSlash2", component: CircleSlash2 },
+  { label: "CircleSlash", component: CircleSlash },
+  { label: "CircleStop", component: CircleStop },
+  { label: "CircleUserRound", component: CircleUserRound },
+  { label: "CircleUser", component: CircleUser },
+  { label: "CircleX", component: CircleX },
+  { label: "Circle", component: Circle },
+  { label: "CircuitBoard", component: CircuitBoard },
+  { label: "Citrus", component: Citrus },
+  { label: "Clapperboard", component: Clapperboard },
+  { label: "ClipboardCheck", component: ClipboardCheck },
+  { label: "ClipboardCopy", component: ClipboardCopy },
+  { label: "ClipboardList", component: ClipboardList },
+  { label: "ClipboardMinus", component: ClipboardMinus },
+  { label: "ClipboardPaste", component: ClipboardPaste },
+  { label: "ClipboardPenLine", component: ClipboardPenLine },
+  { label: "ClipboardPen", component: ClipboardPen },
+  { label: "ClipboardPlus", component: ClipboardPlus },
+  { label: "ClipboardType", component: ClipboardType },
+  { label: "ClipboardX", component: ClipboardX },
+  { label: "Clipboard", component: Clipboard },
+  { label: "Clock1", component: Clock1 },
+  { label: "Clock10", component: Clock10 },
+  { label: "Clock11", component: Clock11 },
+  { label: "Clock12", component: Clock12 },
+  { label: "Clock2", component: Clock2 },
+  { label: "Clock3", component: Clock3 },
+  { label: "Clock4", component: Clock4 },
+  { label: "Clock5", component: Clock5 },
+  { label: "Clock6", component: Clock6 },
+  { label: "Clock7", component: Clock7 },
+  { label: "Clock8", component: Clock8 },
+  { label: "Clock9", component: Clock9 },
+  { label: "ClockArrowDown", component: ClockArrowDown },
+  { label: "ClockArrowUp", component: ClockArrowUp },
+  { label: "Clock", component: Clock },
+  { label: "CloudCog", component: CloudCog },
+  { label: "CloudDownload", component: CloudDownload },
+  { label: "CloudDrizzle", component: CloudDrizzle },
+  { label: "CloudFog", component: CloudFog },
+  { label: "CloudHail", component: CloudHail },
+  { label: "CloudLightning", component: CloudLightning },
+  { label: "CloudMoonRain", component: CloudMoonRain },
+  { label: "CloudMoon", component: CloudMoon },
+  { label: "CloudOff", component: CloudOff },
+  { label: "CloudRainWind", component: CloudRainWind },
+  { label: "CloudRain", component: CloudRain },
+  { label: "CloudSnow", component: CloudSnow },
+  { label: "CloudSunRain", component: CloudSunRain },
+  { label: "CloudSun", component: CloudSun },
+  { label: "CloudUpload", component: CloudUpload },
+  { label: "Cloud", component: Cloud },
+  { label: "Cloudy", component: Cloudy },
+  { label: "Clover", component: Clover },
+  { label: "Club", component: Club },
+  { label: "CodeXml", component: CodeXml },
+  { label: "Code", component: Code },
+  { label: "Codepen", component: Codepen },
+  { label: "Codesandbox", component: Codesandbox },
+  { label: "Coffee", component: Coffee },
+  { label: "Cog", component: Cog },
+  { label: "Coins", component: Coins },
+  { label: "Columns2", component: Columns2 },
+  { label: "Columns3", component: Columns3 },
+  { label: "Columns4", component: Columns4 },
+  { label: "Combine", component: Combine },
+  { label: "Command", component: Command },
+  { label: "Compass", component: Compass },
+  { label: "Component", component: Component },
+  { label: "Computer", component: Computer },
+  { label: "ConciergeBell", component: ConciergeBell },
+  { label: "Cone", component: Cone },
+  { label: "Construction", component: Construction },
+  { label: "ContactRound", component: ContactRound },
+  { label: "Contact", component: Contact },
+  { label: "Container", component: Container },
+  { label: "Contrast", component: Contrast },
+  { label: "Cookie", component: Cookie },
+  { label: "CookingPot", component: CookingPot },
+  { label: "CopyCheck", component: CopyCheck },
+  { label: "CopyMinus", component: CopyMinus },
+  { label: "CopyPlus", component: CopyPlus },
+  { label: "CopySlash", component: CopySlash },
+  { label: "CopyX", component: CopyX },
+  { label: "Copy", component: Copy },
+  { label: "Copyleft", component: Copyleft },
+  { label: "Copyright", component: Copyright },
+  { label: "CornerDownLeft", component: CornerDownLeft },
+  { label: "CornerDownRight", component: CornerDownRight },
+  { label: "CornerLeftDown", component: CornerLeftDown },
+  { label: "CornerLeftUp", component: CornerLeftUp },
+  { label: "CornerRightDown", component: CornerRightDown },
+  { label: "CornerRightUp", component: CornerRightUp },
+  { label: "CornerUpLeft", component: CornerUpLeft },
+  { label: "CornerUpRight", component: CornerUpRight },
+  { label: "Cpu", component: Cpu },
+  { label: "CreativeCommons", component: CreativeCommons },
+  { label: "CreditCard", component: CreditCard },
+  { label: "Croissant", component: Croissant },
+  { label: "Crop", component: Crop },
+  { label: "Cross", component: Cross },
+  { label: "Crosshair", component: Crosshair },
+  { label: "Crown", component: Crown },
+  { label: "Cuboid", component: Cuboid },
+  { label: "CupSoda", component: CupSoda },
+  { label: "Currency", component: Currency },
+  { label: "Cylinder", component: Cylinder },
+  { label: "Dam", component: Dam },
+  { label: "DatabaseBackup", component: DatabaseBackup },
+  { label: "DatabaseZap", component: DatabaseZap },
+  { label: "Database", component: Database },
+  { label: "Delete", component: Delete },
+  { label: "Dessert", component: Dessert },
+  { label: "Diameter", component: Diameter },
+  { label: "DiamondMinus", component: DiamondMinus },
+  { label: "DiamondPercent", component: DiamondPercent },
+  { label: "DiamondPlus", component: DiamondPlus },
+  { label: "Diamond", component: Diamond },
+  { label: "Dice1", component: Dice1 },
+  { label: "Dice2", component: Dice2 },
+  { label: "Dice3", component: Dice3 },
+  { label: "Dice4", component: Dice4 },
+  { label: "Dice5", component: Dice5 },
+  { label: "Dice6", component: Dice6 },
+  { label: "Dices", component: Dices },
+  { label: "Diff", component: Diff },
+  { label: "Disc2", component: Disc2 },
+  { label: "Disc3", component: Disc3 },
+  { label: "DiscAlbum", component: DiscAlbum },
+  { label: "Disc", component: Disc },
+  { label: "Divide", component: Divide },
+  { label: "DnaOff", component: DnaOff },
+  { label: "Dna", component: Dna },
+  { label: "Dock", component: Dock },
+  { label: "Dog", component: Dog },
+  { label: "DollarSign", component: DollarSign },
+  { label: "Donut", component: Donut },
+  { label: "DoorClosed", component: DoorClosed },
+  { label: "DoorOpen", component: DoorOpen },
+  { label: "Dot", component: Dot },
+  { label: "Download", component: Download },
+  { label: "DraftingCompass", component: DraftingCompass },
+  { label: "Drama", component: Drama },
+  { label: "Dribbble", component: Dribbble },
+  { label: "Drill", component: Drill },
+  { label: "Droplet", component: Droplet },
+  { label: "Droplets", component: Droplets },
+  { label: "Drum", component: Drum },
+  { label: "Drumstick", component: Drumstick },
+  { label: "Dumbbell", component: Dumbbell },
+  { label: "EarOff", component: EarOff },
+  { label: "Ear", component: Ear },
+  { label: "EarthLock", component: EarthLock },
+  { label: "Earth", component: Earth },
+  { label: "Eclipse", component: Eclipse },
+  { label: "EggFried", component: EggFried },
+  { label: "EggOff", component: EggOff },
+  { label: "Egg", component: Egg },
+  { label: "EllipsisVertical", component: EllipsisVertical },
+  { label: "Ellipsis", component: Ellipsis },
+  { label: "EqualNot", component: EqualNot },
+  { label: "Equal", component: Equal },
+  { label: "Eraser", component: Eraser },
+  { label: "EthernetPort", component: EthernetPort },
+  { label: "Euro", component: Euro },
+  { label: "Expand", component: Expand },
+  { label: "ExternalLink", component: ExternalLink },
+  { label: "EyeOff", component: EyeOff },
+  { label: "Eye", component: Eye },
+  { label: "Facebook", component: Facebook },
+  { label: "Factory", component: Factory },
+  { label: "Fan", component: Fan },
+  { label: "FastForward", component: FastForward },
+  { label: "Feather", component: Feather },
+  { label: "Fence", component: Fence },
+  { label: "FerrisWheel", component: FerrisWheel },
+  { label: "Figma", component: Figma },
+  { label: "FileArchive", component: FileArchive },
+  { label: "FileAudio2", component: FileAudio2 },
+  { label: "FileAudio", component: FileAudio },
+  { label: "FileAxis3d", component: FileAxis3d },
+  { label: "FileBadge2", component: FileBadge2 },
+  { label: "FileBadge", component: FileBadge },
+  { label: "FileBox", component: FileBox },
+  { label: "FileChartColumnIncreasing", component: FileChartColumnIncreasing },
+  { label: "FileChartColumn", component: FileChartColumn },
+  { label: "FileChartLine", component: FileChartLine },
+  { label: "FileChartPie", component: FileChartPie },
+  { label: "FileCheck2", component: FileCheck2 },
+  { label: "FileCheck", component: FileCheck },
+  { label: "FileClock", component: FileClock },
+  { label: "FileCode2", component: FileCode2 },
+  { label: "FileCode", component: FileCode },
+  { label: "FileCog", component: FileCog },
+  { label: "FileDiff", component: FileDiff },
+  { label: "FileDigit", component: FileDigit },
+  { label: "FileDown", component: FileDown },
+  { label: "FileHeart", component: FileHeart },
+  { label: "FileImage", component: FileImage },
+  { label: "FileInput", component: FileInput },
+  { label: "FileJson2", component: FileJson2 },
+  { label: "FileJson", component: FileJson },
+  { label: "FileKey2", component: FileKey2 },
+  { label: "FileKey", component: FileKey },
+  { label: "FileLock2", component: FileLock2 },
+  { label: "FileLock", component: FileLock },
+  { label: "FileMinus2", component: FileMinus2 },
+  { label: "FileMinus", component: FileMinus },
+  { label: "FileMusic", component: FileMusic },
+  { label: "FileOutput", component: FileOutput },
+  { label: "FilePenLine", component: FilePenLine },
+  { label: "FilePen", component: FilePen },
+  { label: "FilePlus2", component: FilePlus2 },
+  { label: "FilePlus", component: FilePlus },
+  { label: "FileQuestion", component: FileQuestion },
+  { label: "FileScan", component: FileScan },
+  { label: "FileSearch2", component: FileSearch2 },
+  { label: "FileSearch", component: FileSearch },
+  { label: "FileSliders", component: FileSliders },
+  { label: "FileSpreadsheet", component: FileSpreadsheet },
+  { label: "FileStack", component: FileStack },
+  { label: "FileSymlink", component: FileSymlink },
+  { label: "FileTerminal", component: FileTerminal },
+  { label: "FileText", component: FileText },
+  { label: "FileType2", component: FileType2 },
+  { label: "FileType", component: FileType },
+  { label: "FileUp", component: FileUp },
+  { label: "FileVideo2", component: FileVideo2 },
+  { label: "FileVideo", component: FileVideo },
+  { label: "FileVolume2", component: FileVolume2 },
+  { label: "FileVolume", component: FileVolume },
+  { label: "FileWarning", component: FileWarning },
+  { label: "FileX2", component: FileX2 },
+  { label: "FileX", component: FileX },
+  { label: "File", component: File },
+  { label: "Files", component: Files },
+  { label: "Film", component: Film },
+  { label: "FilterX", component: FilterX },
+  { label: "Filter", component: Filter },
+  { label: "Fingerprint", component: Fingerprint },
+  { label: "FireExtinguisher", component: FireExtinguisher },
+  { label: "FishOff", component: FishOff },
+  { label: "FishSymbol", component: FishSymbol },
+  { label: "Fish", component: Fish },
+  { label: "FlagOff", component: FlagOff },
+  { label: "FlagTriangleLeft", component: FlagTriangleLeft },
+  { label: "FlagTriangleRight", component: FlagTriangleRight },
+  { label: "Flag", component: Flag },
+  { label: "FlameKindling", component: FlameKindling },
+  { label: "Flame", component: Flame },
+  { label: "FlashlightOff", component: FlashlightOff },
+  { label: "Flashlight", component: Flashlight },
+  { label: "FlaskConicalOff", component: FlaskConicalOff },
+  { label: "FlaskConical", component: FlaskConical },
+  { label: "FlaskRound", component: FlaskRound },
+  { label: "FlipHorizontal2", component: FlipHorizontal2 },
+  { label: "FlipHorizontal", component: FlipHorizontal },
+  { label: "FlipVertical2", component: FlipVertical2 },
+  { label: "FlipVertical", component: FlipVertical },
+  { label: "Flower2", component: Flower2 },
+  { label: "Flower", component: Flower },
+  { label: "Focus", component: Focus },
+  { label: "FoldHorizontal", component: FoldHorizontal },
+  { label: "FoldVertical", component: FoldVertical },
+  { label: "FolderArchive", component: FolderArchive },
+  { label: "FolderCheck", component: FolderCheck },
+  { label: "FolderClock", component: FolderClock },
+  { label: "FolderClosed", component: FolderClosed },
+  { label: "FolderCode", component: FolderCode },
+  { label: "FolderCog", component: FolderCog },
+  { label: "FolderDot", component: FolderDot },
+  { label: "FolderDown", component: FolderDown },
+  { label: "FolderGit2", component: FolderGit2 },
+  { label: "FolderGit", component: FolderGit },
+  { label: "FolderHeart", component: FolderHeart },
+  { label: "FolderInput", component: FolderInput },
+  { label: "FolderKanban", component: FolderKanban },
+  { label: "FolderKey", component: FolderKey },
+  { label: "FolderLock", component: FolderLock },
+  { label: "FolderMinus", component: FolderMinus },
+  { label: "FolderOpenDot", component: FolderOpenDot },
+  { label: "FolderOpen", component: FolderOpen },
+  { label: "FolderOutput", component: FolderOutput },
+  { label: "FolderPen", component: FolderPen },
+  { label: "FolderPlus", component: FolderPlus },
+  { label: "FolderRoot", component: FolderRoot },
+  { label: "FolderSearch2", component: FolderSearch2 },
+  { label: "FolderSearch", component: FolderSearch },
+  { label: "FolderSymlink", component: FolderSymlink },
+  { label: "FolderSync", component: FolderSync },
+  { label: "FolderTree", component: FolderTree },
+  { label: "FolderUp", component: FolderUp },
+  { label: "FolderX", component: FolderX },
+  { label: "Folder", component: Folder },
+  { label: "Folders", component: Folders },
+  { label: "Footprints", component: Footprints },
+  { label: "Forklift", component: Forklift },
+  { label: "Forward", component: Forward },
+  { label: "Frame", component: Frame },
+  { label: "Framer", component: Framer },
+  { label: "Frown", component: Frown },
+  { label: "Fuel", component: Fuel },
+  { label: "Fullscreen", component: Fullscreen },
+  { label: "GalleryHorizontalEnd", component: GalleryHorizontalEnd },
+  { label: "GalleryHorizontal", component: GalleryHorizontal },
+  { label: "GalleryThumbnails", component: GalleryThumbnails },
+  { label: "GalleryVerticalEnd", component: GalleryVerticalEnd },
+  { label: "GalleryVertical", component: GalleryVertical },
+  { label: "Gamepad2", component: Gamepad2 },
+  { label: "Gamepad", component: Gamepad },
+  { label: "Gauge", component: Gauge },
+  { label: "Gavel", component: Gavel },
+  { label: "Gem", component: Gem },
+  { label: "Ghost", component: Ghost },
+  { label: "Gift", component: Gift },
+  { label: "GitBranchPlus", component: GitBranchPlus },
+  { label: "GitBranch", component: GitBranch },
+  { label: "GitCommitHorizontal", component: GitCommitHorizontal },
+  { label: "GitCommitVertical", component: GitCommitVertical },
+  { label: "GitCompareArrows", component: GitCompareArrows },
+  { label: "GitCompare", component: GitCompare },
+  { label: "GitFork", component: GitFork },
+  { label: "GitGraph", component: GitGraph },
+  { label: "GitMerge", component: GitMerge },
+  { label: "GitPullRequestArrow", component: GitPullRequestArrow },
+  { label: "GitPullRequestClosed", component: GitPullRequestClosed },
+  { label: "GitPullRequestCreateArrow", component: GitPullRequestCreateArrow },
+  { label: "GitPullRequestCreate", component: GitPullRequestCreate },
+  { label: "GitPullRequestDraft", component: GitPullRequestDraft },
+  { label: "GitPullRequest", component: GitPullRequest },
+  { label: "Github", component: Github },
+  { label: "Gitlab", component: Gitlab },
+  { label: "GlassWater", component: GlassWater },
+  { label: "Glasses", component: Glasses },
+  { label: "GlobeLock", component: GlobeLock },
+  { label: "Globe", component: Globe },
+  { label: "Goal", component: Goal },
+  { label: "Grab", component: Grab },
+  { label: "GraduationCap", component: GraduationCap },
+  { label: "Grape", component: Grape },
+  { label: "Grid2x2Check", component: Grid2x2Check },
+  { label: "Grid2x2X", component: Grid2x2X },
+  { label: "Grid2x2", component: Grid2x2 },
+  { label: "Grid3x3", component: Grid3x3 },
+  { label: "GripHorizontal", component: GripHorizontal },
+  { label: "GripVertical", component: GripVertical },
+  { label: "Grip", component: Grip },
+  { label: "Group", component: Group },
+  { label: "Guitar", component: Guitar },
+  { label: "Ham", component: Ham },
+  { label: "Hammer", component: Hammer },
+  { label: "HandCoins", component: HandCoins },
+  { label: "HandHeart", component: HandHeart },
+  { label: "HandHelping", component: HandHelping },
+  { label: "HandMetal", component: HandMetal },
+  { label: "HandPlatter", component: HandPlatter },
+  { label: "Hand", component: Hand },
+  { label: "Handshake", component: Handshake },
+  { label: "HardDriveDownload", component: HardDriveDownload },
+  { label: "HardDriveUpload", component: HardDriveUpload },
+  { label: "HardDrive", component: HardDrive },
+  { label: "HardHat", component: HardHat },
+  { label: "Hash", component: Hash },
+  { label: "Haze", component: Haze },
+  { label: "HdmiPort", component: HdmiPort },
+  { label: "Heading1", component: Heading1 },
+  { label: "Heading2", component: Heading2 },
+  { label: "Heading3", component: Heading3 },
+  { label: "Heading4", component: Heading4 },
+  { label: "Heading5", component: Heading5 },
+  { label: "Heading6", component: Heading6 },
+  { label: "Heading", component: Heading },
+  { label: "Headphones", component: Headphones },
+  { label: "Headset", component: Headset },
+  { label: "HeartCrack", component: HeartCrack },
+  { label: "HeartHandshake", component: HeartHandshake },
+  { label: "HeartOff", component: HeartOff },
+  { label: "HeartPulse", component: HeartPulse },
+  { label: "Heart", component: Heart },
+  { label: "Heater", component: Heater },
+  { label: "Hexagon", component: Hexagon },
+  { label: "Highlighter", component: Highlighter },
+  { label: "History", component: History },
+  { label: "HopOff", component: HopOff },
+  { label: "Hop", component: Hop },
+  { label: "Hospital", component: Hospital },
+  { label: "Hotel", component: Hotel },
+  { label: "Hourglass", component: Hourglass },
+  { label: "HousePlug", component: HousePlug },
+  { label: "HousePlus", component: HousePlus },
+  { label: "House", component: House },
+  { label: "IceCreamBowl", component: IceCreamBowl },
+  { label: "IceCreamCone", component: IceCreamCone },
+  { label: "IdCard", component: IdCard },
+  { label: "ImageDown", component: ImageDown },
+  { label: "ImageMinus", component: ImageMinus },
+  { label: "ImageOff", component: ImageOff },
+  { label: "ImagePlay", component: ImagePlay },
+  { label: "ImagePlus", component: ImagePlus },
+  { label: "ImageUp", component: ImageUp },
+  { label: "Image", component: Image },
+  { label: "Images", component: Images },
+  { label: "Import", component: Import },
+  { label: "Inbox", component: Inbox },
+  { label: "IndentDecrease", component: IndentDecrease },
+  { label: "IndentIncrease", component: IndentIncrease },
+  { label: "IndianRupee", component: IndianRupee },
+  { label: "Infinity", component: Infinity },
+  { label: "Info", component: Info },
+  { label: "InspectionPanel", component: InspectionPanel },
+  { label: "Instagram", component: Instagram },
+  { label: "Italic", component: Italic },
+  { label: "IterationCcw", component: IterationCcw },
+  { label: "IterationCw", component: IterationCw },
+  { label: "JapaneseYen", component: JapaneseYen },
+  { label: "Joystick", component: Joystick },
+  { label: "Kanban", component: Kanban },
+  { label: "KeyRound", component: KeyRound },
+  { label: "KeySquare", component: KeySquare },
+  { label: "Key", component: Key },
+  { label: "KeyboardMusic", component: KeyboardMusic },
+  { label: "KeyboardOff", component: KeyboardOff },
+  { label: "Keyboard", component: Keyboard },
+  { label: "LampCeiling", component: LampCeiling },
+  { label: "LampDesk", component: LampDesk },
+  { label: "LampFloor", component: LampFloor },
+  { label: "LampWallDown", component: LampWallDown },
+  { label: "LampWallUp", component: LampWallUp },
+  { label: "Lamp", component: Lamp },
+  { label: "LandPlot", component: LandPlot },
+  { label: "Landmark", component: Landmark },
+  { label: "Languages", component: Languages },
+  { label: "LaptopMinimal", component: LaptopMinimal },
+  { label: "Laptop", component: Laptop },
+  { label: "LassoSelect", component: LassoSelect },
+  { label: "Lasso", component: Lasso },
+  { label: "Laugh", component: Laugh },
+  { label: "Layers2", component: Layers2 },
+  { label: "Layers3", component: Layers3 },
+  { label: "Layers", component: Layers },
+  { label: "LayoutDashboard", component: LayoutDashboard },
+  { label: "LayoutGrid", component: LayoutGrid },
+  { label: "LayoutList", component: LayoutList },
+  { label: "LayoutPanelLeft", component: LayoutPanelLeft },
+  { label: "LayoutPanelTop", component: LayoutPanelTop },
+  { label: "LayoutTemplate", component: LayoutTemplate },
+  { label: "Leaf", component: Leaf },
+  { label: "LeafyGreen", component: LeafyGreen },
+  { label: "Lectern", component: Lectern },
+  { label: "LetterText", component: LetterText },
+  { label: "LibraryBig", component: LibraryBig },
+  { label: "Library", component: Library },
+  { label: "LifeBuoy", component: LifeBuoy },
+  { label: "Ligature", component: Ligature },
+  { label: "LightbulbOff", component: LightbulbOff },
+  { label: "Lightbulb", component: Lightbulb },
+  { label: "Link2Off", component: Link2Off },
+  { label: "Link2", component: Link2 },
+  { label: "Link", component: Link },
+  { label: "Linkedin", component: Linkedin },
+  { label: "ListCheck", component: ListCheck },
+  { label: "ListChecks", component: ListChecks },
+  { label: "ListCollapse", component: ListCollapse },
+  { label: "ListEnd", component: ListEnd },
+  { label: "ListFilter", component: ListFilter },
+  { label: "ListMinus", component: ListMinus },
+  { label: "ListMusic", component: ListMusic },
+  { label: "ListOrdered", component: ListOrdered },
+  { label: "ListPlus", component: ListPlus },
+  { label: "ListRestart", component: ListRestart },
+  { label: "ListStart", component: ListStart },
+  { label: "ListTodo", component: ListTodo },
+  { label: "ListTree", component: ListTree },
+  { label: "ListVideo", component: ListVideo },
+  { label: "ListX", component: ListX },
+  { label: "List", component: List },
+  { label: "LoaderCircle", component: LoaderCircle },
+  { label: "LoaderPinwheel", component: LoaderPinwheel },
+  { label: "Loader", component: Loader },
+  { label: "LocateFixed", component: LocateFixed },
+  { label: "LocateOff", component: LocateOff },
+  { label: "Locate", component: Locate },
+  { label: "LockKeyholeOpen", component: LockKeyholeOpen },
+  { label: "LockKeyhole", component: LockKeyhole },
+  { label: "LockOpen", component: LockOpen },
+  { label: "Lock", component: Lock },
+  { label: "LogIn", component: LogIn },
+  { label: "LogOut", component: LogOut },
+  { label: "Logs", component: Logs },
+  { label: "Lollipop", component: Lollipop },
+  { label: "Luggage", component: Luggage },
+  { label: "Magnet", component: Magnet },
+  { label: "MailCheck", component: MailCheck },
+  { label: "MailMinus", component: MailMinus },
+  { label: "MailOpen", component: MailOpen },
+  { label: "MailPlus", component: MailPlus },
+  { label: "MailQuestion", component: MailQuestion },
+  { label: "MailSearch", component: MailSearch },
+  { label: "MailWarning", component: MailWarning },
+  { label: "MailX", component: MailX },
+  { label: "Mail", component: Mail },
+  { label: "Mailbox", component: Mailbox },
+  { label: "Mails", component: Mails },
+  { label: "MapPinCheckInside", component: MapPinCheckInside },
+  { label: "MapPinCheck", component: MapPinCheck },
+  { label: "MapPinHouse", component: MapPinHouse },
+  { label: "MapPinMinusInside", component: MapPinMinusInside },
+  { label: "MapPinMinus", component: MapPinMinus },
+  { label: "MapPinOff", component: MapPinOff },
+  { label: "MapPinPlusInside", component: MapPinPlusInside },
+  { label: "MapPinPlus", component: MapPinPlus },
+  { label: "MapPinXInside", component: MapPinXInside },
+  { label: "MapPinX", component: MapPinX },
+  { label: "MapPin", component: MapPin },
+  { label: "MapPinned", component: MapPinned },
+  { label: "Map", component: Map },
+  { label: "Martini", component: Martini },
+  { label: "Maximize2", component: Maximize2 },
+  { label: "Maximize", component: Maximize },
+  { label: "Medal", component: Medal },
+  { label: "MegaphoneOff", component: MegaphoneOff },
+  { label: "Megaphone", component: Megaphone },
+  { label: "Meh", component: Meh },
+  { label: "MemoryStick", component: MemoryStick },
+  { label: "Menu", component: Menu },
+  { label: "Merge", component: Merge },
+  { label: "MessageCircleCode", component: MessageCircleCode },
+  { label: "MessageCircleDashed", component: MessageCircleDashed },
+  { label: "MessageCircleHeart", component: MessageCircleHeart },
+  { label: "MessageCircleMore", component: MessageCircleMore },
+  { label: "MessageCircleOff", component: MessageCircleOff },
+  { label: "MessageCirclePlus", component: MessageCirclePlus },
+  { label: "MessageCircleQuestion", component: MessageCircleQuestion },
+  { label: "MessageCircleReply", component: MessageCircleReply },
+  { label: "MessageCircleWarning", component: MessageCircleWarning },
+  { label: "MessageCircleX", component: MessageCircleX },
+  { label: "MessageCircle", component: MessageCircle },
+  { label: "MessageSquareCode", component: MessageSquareCode },
+  { label: "MessageSquareDashed", component: MessageSquareDashed },
+  { label: "MessageSquareDiff", component: MessageSquareDiff },
+  { label: "MessageSquareDot", component: MessageSquareDot },
+  { label: "MessageSquareHeart", component: MessageSquareHeart },
+  { label: "MessageSquareMore", component: MessageSquareMore },
+  { label: "MessageSquareOff", component: MessageSquareOff },
+  { label: "MessageSquarePlus", component: MessageSquarePlus },
+  { label: "MessageSquareQuote", component: MessageSquareQuote },
+  { label: "MessageSquareReply", component: MessageSquareReply },
+  { label: "MessageSquareShare", component: MessageSquareShare },
+  { label: "MessageSquareText", component: MessageSquareText },
+  { label: "MessageSquareWarning", component: MessageSquareWarning },
+  { label: "MessageSquareX", component: MessageSquareX },
+  { label: "MessageSquare", component: MessageSquare },
+  { label: "MessagesSquare", component: MessagesSquare },
+  { label: "MicOff", component: MicOff },
+  { label: "MicVocal", component: MicVocal },
+  { label: "Mic", component: Mic },
+  { label: "Microchip", component: Microchip },
+  { label: "Microscope", component: Microscope },
+  { label: "Microwave", component: Microwave },
+  { label: "Milestone", component: Milestone },
+  { label: "MilkOff", component: MilkOff },
+  { label: "Milk", component: Milk },
+  { label: "Minimize2", component: Minimize2 },
+  { label: "Minimize", component: Minimize },
+  { label: "Minus", component: Minus },
+  { label: "MonitorCheck", component: MonitorCheck },
+  { label: "MonitorCog", component: MonitorCog },
+  { label: "MonitorDot", component: MonitorDot },
+  { label: "MonitorDown", component: MonitorDown },
+  { label: "MonitorOff", component: MonitorOff },
+  { label: "MonitorPause", component: MonitorPause },
+  { label: "MonitorPlay", component: MonitorPlay },
+  { label: "MonitorSmartphone", component: MonitorSmartphone },
+  { label: "MonitorSpeaker", component: MonitorSpeaker },
+  { label: "MonitorStop", component: MonitorStop },
+  { label: "MonitorUp", component: MonitorUp },
+  { label: "MonitorX", component: MonitorX },
+  { label: "Monitor", component: Monitor },
+  { label: "MoonStar", component: MoonStar },
+  { label: "Moon", component: Moon },
+  { label: "MountainSnow", component: MountainSnow },
+  { label: "Mountain", component: Mountain },
+  { label: "MouseOff", component: MouseOff },
+  { label: "MousePointer2", component: MousePointer2 },
+  { label: "MousePointerBan", component: MousePointerBan },
+  { label: "MousePointerClick", component: MousePointerClick },
+  { label: "MousePointer", component: MousePointer },
+  { label: "Mouse", component: Mouse },
+  { label: "Move3d", component: Move3d },
+  { label: "MoveDiagonal2", component: MoveDiagonal2 },
+  { label: "MoveDiagonal", component: MoveDiagonal },
+  { label: "MoveDownLeft", component: MoveDownLeft },
+  { label: "MoveDownRight", component: MoveDownRight },
+  { label: "MoveDown", component: MoveDown },
+  { label: "MoveHorizontal", component: MoveHorizontal },
+  { label: "MoveLeft", component: MoveLeft },
+  { label: "MoveRight", component: MoveRight },
+  { label: "MoveUpLeft", component: MoveUpLeft },
+  { label: "MoveUpRight", component: MoveUpRight },
+  { label: "MoveUp", component: MoveUp },
+  { label: "MoveVertical", component: MoveVertical },
+  { label: "Move", component: Move },
+  { label: "Music2", component: Music2 },
+  { label: "Music3", component: Music3 },
+  { label: "Music4", component: Music4 },
+  { label: "Music", component: Music },
+  { label: "Navigation2Off", component: Navigation2Off },
+  { label: "Navigation2", component: Navigation2 },
+  { label: "NavigationOff", component: NavigationOff },
+  { label: "Navigation", component: Navigation },
+  { label: "Network", component: Network },
+  { label: "Newspaper", component: Newspaper },
+  { label: "Nfc", component: Nfc },
+  { label: "NotebookPen", component: NotebookPen },
+  { label: "NotebookTabs", component: NotebookTabs },
+  { label: "NotebookText", component: NotebookText },
+  { label: "Notebook", component: Notebook },
+  { label: "NotepadTextDashed", component: NotepadTextDashed },
+  { label: "NotepadText", component: NotepadText },
+  { label: "NutOff", component: NutOff },
+  { label: "Nut", component: Nut },
+  { label: "OctagonAlert", component: OctagonAlert },
+  { label: "OctagonMinus", component: OctagonMinus },
+  { label: "OctagonPause", component: OctagonPause },
+  { label: "OctagonX", component: OctagonX },
+  { label: "Octagon", component: Octagon },
+  { label: "Omega", component: Omega },
+  { label: "Option", component: Option },
+  { label: "Orbit", component: Orbit },
+  { label: "Origami", component: Origami },
+  { label: "Package2", component: Package2 },
+  { label: "PackageCheck", component: PackageCheck },
+  { label: "PackageMinus", component: PackageMinus },
+  { label: "PackageOpen", component: PackageOpen },
+  { label: "PackagePlus", component: PackagePlus },
+  { label: "PackageSearch", component: PackageSearch },
+  { label: "PackageX", component: PackageX },
+  { label: "Package", component: Package },
+  { label: "PaintBucket", component: PaintBucket },
+  { label: "PaintRoller", component: PaintRoller },
+  { label: "PaintbrushVertical", component: PaintbrushVertical },
+  { label: "Paintbrush", component: Paintbrush },
+  { label: "Palette", component: Palette },
+  { label: "PanelBottomClose", component: PanelBottomClose },
+  { label: "PanelBottomDashed", component: PanelBottomDashed },
+  { label: "PanelBottomOpen", component: PanelBottomOpen },
+  { label: "PanelBottom", component: PanelBottom },
+  { label: "PanelLeftClose", component: PanelLeftClose },
+  { label: "PanelLeftDashed", component: PanelLeftDashed },
+  { label: "PanelLeftOpen", component: PanelLeftOpen },
+  { label: "PanelLeft", component: PanelLeft },
+  { label: "PanelRightClose", component: PanelRightClose },
+  { label: "PanelRightDashed", component: PanelRightDashed },
+  { label: "PanelRightOpen", component: PanelRightOpen },
+  { label: "PanelRight", component: PanelRight },
+  { label: "PanelTopClose", component: PanelTopClose },
+  { label: "PanelTopDashed", component: PanelTopDashed },
+  { label: "PanelTopOpen", component: PanelTopOpen },
+  { label: "PanelTop", component: PanelTop },
+  { label: "PanelsLeftBottom", component: PanelsLeftBottom },
+  { label: "PanelsRightBottom", component: PanelsRightBottom },
+  { label: "PanelsTopLeft", component: PanelsTopLeft },
+  { label: "Paperclip", component: Paperclip },
+  { label: "Parentheses", component: Parentheses },
+  { label: "ParkingMeter", component: ParkingMeter },
+  { label: "PartyPopper", component: PartyPopper },
+  { label: "Pause", component: Pause },
+  { label: "PawPrint", component: PawPrint },
+  { label: "PcCase", component: PcCase },
+  { label: "PenLine", component: PenLine },
+  { label: "PenOff", component: PenOff },
+  { label: "PenTool", component: PenTool },
+  { label: "Pen", component: Pen },
+  { label: "PencilLine", component: PencilLine },
+  { label: "PencilOff", component: PencilOff },
+  { label: "PencilRuler", component: PencilRuler },
+  { label: "Pencil", component: Pencil },
+  { label: "Pentagon", component: Pentagon },
+  { label: "Percent", component: Percent },
+  { label: "PersonStanding", component: PersonStanding },
+  { label: "PhilippinePeso", component: PhilippinePeso },
+  { label: "PhoneCall", component: PhoneCall },
+  { label: "PhoneForwarded", component: PhoneForwarded },
+  { label: "PhoneIncoming", component: PhoneIncoming },
+  { label: "PhoneMissed", component: PhoneMissed },
+  { label: "PhoneOff", component: PhoneOff },
+  { label: "PhoneOutgoing", component: PhoneOutgoing },
+  { label: "Phone", component: Phone },
+  { label: "Pi", component: Pi },
+  { label: "Piano", component: Piano },
+  { label: "Pickaxe", component: Pickaxe },
+  { label: "PictureInPicture2", component: PictureInPicture2 },
+  { label: "PictureInPicture", component: PictureInPicture },
+  { label: "PiggyBank", component: PiggyBank },
+  { label: "PilcrowLeft", component: PilcrowLeft },
+  { label: "PilcrowRight", component: PilcrowRight },
+  { label: "Pilcrow", component: Pilcrow },
+  { label: "PillBottle", component: PillBottle },
+  { label: "Pill", component: Pill },
+  { label: "PinOff", component: PinOff },
+  { label: "Pin", component: Pin },
+  { label: "Pipette", component: Pipette },
+  { label: "Pizza", component: Pizza },
+  { label: "PlaneLanding", component: PlaneLanding },
+  { label: "PlaneTakeoff", component: PlaneTakeoff },
+  { label: "Plane", component: Plane },
+  { label: "Play", component: Play },
+  { label: "Plug2", component: Plug2 },
+  { label: "PlugZap", component: PlugZap },
+  { label: "Plug", component: Plug },
+  { label: "Plus", component: Plus },
+  { label: "PocketKnife", component: PocketKnife },
+  { label: "Pocket", component: Pocket },
+  { label: "Podcast", component: Podcast },
+  { label: "PointerOff", component: PointerOff },
+  { label: "Pointer", component: Pointer },
+  { label: "Popcorn", component: Popcorn },
+  { label: "Popsicle", component: Popsicle },
+  { label: "PoundSterling", component: PoundSterling },
+  { label: "PowerOff", component: PowerOff },
+  { label: "Power", component: Power },
+  { label: "Presentation", component: Presentation },
+  { label: "PrinterCheck", component: PrinterCheck },
+  { label: "Printer", component: Printer },
+  { label: "Projector", component: Projector },
+  { label: "Proportions", component: Proportions },
+  { label: "Puzzle", component: Puzzle },
+  { label: "Pyramid", component: Pyramid },
+  { label: "QrCode", component: QrCode },
+  { label: "Quote", component: Quote },
+  { label: "Rabbit", component: Rabbit },
+  { label: "Radar", component: Radar },
+  { label: "Radiation", component: Radiation },
+  { label: "Radical", component: Radical },
+  { label: "RadioReceiver", component: RadioReceiver },
+  { label: "RadioTower", component: RadioTower },
+  { label: "Radio", component: Radio },
+  { label: "Radius", component: Radius },
+  { label: "RailSymbol", component: RailSymbol },
+  { label: "Rainbow", component: Rainbow },
+  { label: "Rat", component: Rat },
+  { label: "Ratio", component: Ratio },
+  { label: "ReceiptCent", component: ReceiptCent },
+  { label: "ReceiptEuro", component: ReceiptEuro },
+  { label: "ReceiptIndianRupee", component: ReceiptIndianRupee },
+  { label: "ReceiptJapaneseYen", component: ReceiptJapaneseYen },
+  { label: "ReceiptPoundSterling", component: ReceiptPoundSterling },
+  { label: "ReceiptRussianRuble", component: ReceiptRussianRuble },
+  { label: "ReceiptSwissFranc", component: ReceiptSwissFranc },
+  { label: "ReceiptText", component: ReceiptText },
+  { label: "Receipt", component: Receipt },
+  { label: "RectangleEllipsis", component: RectangleEllipsis },
+  { label: "RectangleHorizontal", component: RectangleHorizontal },
+  { label: "RectangleVertical", component: RectangleVertical },
+  { label: "Recycle", component: Recycle },
+  { label: "Redo2", component: Redo2 },
+  { label: "RedoDot", component: RedoDot },
+  { label: "Redo", component: Redo },
+  { label: "RefreshCcwDot", component: RefreshCcwDot },
+  { label: "RefreshCcw", component: RefreshCcw },
+  { label: "RefreshCwOff", component: RefreshCwOff },
+  { label: "RefreshCw", component: RefreshCw },
+  { label: "Refrigerator", component: Refrigerator },
+  { label: "Regex", component: Regex },
+  { label: "RemoveFormatting", component: RemoveFormatting },
+  { label: "Repeat1", component: Repeat1 },
+  { label: "Repeat2", component: Repeat2 },
+  { label: "Repeat", component: Repeat },
+  { label: "ReplaceAll", component: ReplaceAll },
+  { label: "Replace", component: Replace },
+  { label: "ReplyAll", component: ReplyAll },
+  { label: "Reply", component: Reply },
+  { label: "Rewind", component: Rewind },
+  { label: "Ribbon", component: Ribbon },
+  { label: "Rocket", component: Rocket },
+  { label: "RockingChair", component: RockingChair },
+  { label: "RollerCoaster", component: RollerCoaster },
+  { label: "Rotate3d", component: Rotate3d },
+  { label: "RotateCcwSquare", component: RotateCcwSquare },
+  { label: "RotateCcw", component: RotateCcw },
+  { label: "RotateCwSquare", component: RotateCwSquare },
+  { label: "RotateCw", component: RotateCw },
+  { label: "RouteOff", component: RouteOff },
+  { label: "Route", component: Route },
+  { label: "Router", component: Router },
+  { label: "Rows2", component: Rows2 },
+  { label: "Rows3", component: Rows3 },
+  { label: "Rows4", component: Rows4 },
+  { label: "Rss", component: Rss },
+  { label: "Ruler", component: Ruler },
+  { label: "RussianRuble", component: RussianRuble },
+  { label: "Sailboat", component: Sailboat },
+  { label: "Salad", component: Salad },
+  { label: "Sandwich", component: Sandwich },
+  { label: "SatelliteDish", component: SatelliteDish },
+  { label: "Satellite", component: Satellite },
+  { label: "SaveAll", component: SaveAll },
+  { label: "SaveOff", component: SaveOff },
+  { label: "Save", component: Save },
+  { label: "Scale3d", component: Scale3d },
+  { label: "Scale", component: Scale },
+  { label: "Scaling", component: Scaling },
+  { label: "ScanBarcode", component: ScanBarcode },
+  { label: "ScanEye", component: ScanEye },
+  { label: "ScanFace", component: ScanFace },
+  { label: "ScanLine", component: ScanLine },
+  { label: "ScanQrCode", component: ScanQrCode },
+  { label: "ScanSearch", component: ScanSearch },
+  { label: "ScanText", component: ScanText },
+  { label: "Scan", component: Scan },
+  { label: "School", component: School },
+  { label: "ScissorsLineDashed", component: ScissorsLineDashed },
+  { label: "Scissors", component: Scissors },
+  { label: "ScreenShareOff", component: ScreenShareOff },
+  { label: "ScreenShare", component: ScreenShare },
+  { label: "ScrollText", component: ScrollText },
+  { label: "Scroll", component: Scroll },
+  { label: "SearchCheck", component: SearchCheck },
+  { label: "SearchCode", component: SearchCode },
+  { label: "SearchSlash", component: SearchSlash },
+  { label: "SearchX", component: SearchX },
+  { label: "Search", component: Search },
+  { label: "Section", component: Section },
+  { label: "SendHorizontal", component: SendHorizontal },
+  { label: "SendToBack", component: SendToBack },
+  { label: "Send", component: Send },
+  { label: "SeparatorHorizontal", component: SeparatorHorizontal },
+  { label: "SeparatorVertical", component: SeparatorVertical },
+  { label: "ServerCog", component: ServerCog },
+  { label: "ServerCrash", component: ServerCrash },
+  { label: "ServerOff", component: ServerOff },
+  { label: "Server", component: Server },
+  { label: "Settings2", component: Settings2 },
+  { label: "Settings", component: Settings },
+  { label: "Shapes", component: Shapes },
+  { label: "Share2", component: Share2 },
+  { label: "Share", component: Share },
+  { label: "Sheet", component: Sheet },
+  { label: "Shell", component: Shell },
+  { label: "ShieldAlert", component: ShieldAlert },
+  { label: "ShieldBan", component: ShieldBan },
+  { label: "ShieldCheck", component: ShieldCheck },
+  { label: "ShieldEllipsis", component: ShieldEllipsis },
+  { label: "ShieldHalf", component: ShieldHalf },
+  { label: "ShieldMinus", component: ShieldMinus },
+  { label: "ShieldOff", component: ShieldOff },
+  { label: "ShieldPlus", component: ShieldPlus },
+  { label: "ShieldQuestion", component: ShieldQuestion },
+  { label: "ShieldX", component: ShieldX },
+  { label: "Shield", component: Shield },
+  { label: "ShipWheel", component: ShipWheel },
+  { label: "Ship", component: Ship },
+  { label: "Shirt", component: Shirt },
+  { label: "ShoppingBag", component: ShoppingBag },
+  { label: "ShoppingBasket", component: ShoppingBasket },
+  { label: "ShoppingCart", component: ShoppingCart },
+  { label: "Shovel", component: Shovel },
+  { label: "ShowerHead", component: ShowerHead },
+  { label: "Shrink", component: Shrink },
+  { label: "Shrub", component: Shrub },
+  { label: "Shuffle", component: Shuffle },
+  { label: "Sigma", component: Sigma },
+  { label: "SignalHigh", component: SignalHigh },
+  { label: "SignalLow", component: SignalLow },
+  { label: "SignalMedium", component: SignalMedium },
+  { label: "SignalZero", component: SignalZero },
+  { label: "Signal", component: Signal },
+  { label: "Signature", component: Signature },
+  { label: "SignpostBig", component: SignpostBig },
+  { label: "Signpost", component: Signpost },
+  { label: "Siren", component: Siren },
+  { label: "SkipBack", component: SkipBack },
+  { label: "SkipForward", component: SkipForward },
+  { label: "Skull", component: Skull },
+  { label: "Slack", component: Slack },
+  { label: "Slash", component: Slash },
+  { label: "Slice", component: Slice },
+  { label: "SlidersHorizontal", component: SlidersHorizontal },
+  { label: "SlidersVertical", component: SlidersVertical },
+  { label: "SmartphoneCharging", component: SmartphoneCharging },
+  { label: "SmartphoneNfc", component: SmartphoneNfc },
+  { label: "Smartphone", component: Smartphone },
+  { label: "SmilePlus", component: SmilePlus },
+  { label: "Smile", component: Smile },
+  { label: "Snail", component: Snail },
+  { label: "Snowflake", component: Snowflake },
+  { label: "Sofa", component: Sofa },
+  { label: "Soup", component: Soup },
+  { label: "Space", component: Space },
+  { label: "Spade", component: Spade },
+  { label: "Sparkle", component: Sparkle },
+  { label: "Sparkles", component: Sparkles },
+  { label: "Speaker", component: Speaker },
+  { label: "Speech", component: Speech },
+  { label: "SpellCheck2", component: SpellCheck2 },
+  { label: "SpellCheck", component: SpellCheck },
+  { label: "Spline", component: Spline },
+  { label: "Split", component: Split },
+  { label: "SprayCan", component: SprayCan },
+  { label: "Sprout", component: Sprout },
+  { label: "SquareActivity", component: SquareActivity },
+  { label: "SquareArrowDownLeft", component: SquareArrowDownLeft },
+  { label: "SquareArrowDownRight", component: SquareArrowDownRight },
+  { label: "SquareArrowDown", component: SquareArrowDown },
+  { label: "SquareArrowLeft", component: SquareArrowLeft },
+  { label: "SquareArrowOutDownLeft", component: SquareArrowOutDownLeft },
+  { label: "SquareArrowOutDownRight", component: SquareArrowOutDownRight },
+  { label: "SquareArrowOutUpLeft", component: SquareArrowOutUpLeft },
+  { label: "SquareArrowOutUpRight", component: SquareArrowOutUpRight },
+  { label: "SquareArrowRight", component: SquareArrowRight },
+  { label: "SquareArrowUpLeft", component: SquareArrowUpLeft },
+  { label: "SquareArrowUpRight", component: SquareArrowUpRight },
+  { label: "SquareArrowUp", component: SquareArrowUp },
+  { label: "SquareAsterisk", component: SquareAsterisk },
+  { label: "SquareBottomDashedScissors", component: SquareBottomDashedScissors },
+  { label: "SquareChartGantt", component: SquareChartGantt },
+  { label: "SquareCheckBig", component: SquareCheckBig },
+  { label: "SquareCheck", component: SquareCheck },
+  { label: "SquareChevronDown", component: SquareChevronDown },
+  { label: "SquareChevronLeft", component: SquareChevronLeft },
+  { label: "SquareChevronRight", component: SquareChevronRight },
+  { label: "SquareChevronUp", component: SquareChevronUp },
+  { label: "SquareCode", component: SquareCode },
+  { label: "SquareDashedBottomCode", component: SquareDashedBottomCode },
+  { label: "SquareDashedBottom", component: SquareDashedBottom },
+  { label: "SquareDashedKanban", component: SquareDashedKanban },
+  { label: "SquareDashedMousePointer", component: SquareDashedMousePointer },
+  { label: "SquareDivide", component: SquareDivide },
+  { label: "SquareDot", component: SquareDot },
+  { label: "SquareEqual", component: SquareEqual },
+  { label: "SquareFunction", component: SquareFunction },
+  { label: "SquareKanban", component: SquareKanban },
+  { label: "SquareLibrary", component: SquareLibrary },
+  { label: "SquareM", component: SquareM },
+  { label: "SquareMenu", component: SquareMenu },
+  { label: "SquareMinus", component: SquareMinus },
+  { label: "SquareMousePointer", component: SquareMousePointer },
+  { label: "SquareParkingOff", component: SquareParkingOff },
+  { label: "SquareParking", component: SquareParking },
+  { label: "SquarePen", component: SquarePen },
+  { label: "SquarePercent", component: SquarePercent },
+  { label: "SquarePi", component: SquarePi },
+  { label: "SquarePilcrow", component: SquarePilcrow },
+  { label: "SquarePlay", component: SquarePlay },
+  { label: "SquarePlus", component: SquarePlus },
+  { label: "SquarePower", component: SquarePower },
+  { label: "SquareRadical", component: SquareRadical },
+  { label: "SquareScissors", component: SquareScissors },
+  { label: "SquareSigma", component: SquareSigma },
+  { label: "SquareSlash", component: SquareSlash },
+  { label: "SquareSplitHorizontal", component: SquareSplitHorizontal },
+  { label: "SquareSplitVertical", component: SquareSplitVertical },
+  { label: "SquareSquare", component: SquareSquare },
+  { label: "SquareStack", component: SquareStack },
+  { label: "SquareTerminal", component: SquareTerminal },
+  { label: "SquareUserRound", component: SquareUserRound },
+  { label: "SquareUser", component: SquareUser },
+  { label: "SquareX", component: SquareX },
+  { label: "Square", component: Square },
+  { label: "Squircle", component: Squircle },
+  { label: "Squirrel", component: Squirrel },
+  { label: "Stamp", component: Stamp },
+  { label: "StarHalf", component: StarHalf },
+  { label: "StarOff", component: StarOff },
+  { label: "Star", component: Star },
+  { label: "StepBack", component: StepBack },
+  { label: "StepForward", component: StepForward },
+  { label: "Stethoscope", component: Stethoscope },
+  { label: "Sticker", component: Sticker },
+  { label: "StickyNote", component: StickyNote },
+  { label: "Store", component: Store },
+  { label: "StretchHorizontal", component: StretchHorizontal },
+  { label: "StretchVertical", component: StretchVertical },
+  { label: "Strikethrough", component: Strikethrough },
+  { label: "Subscript", component: Subscript },
+  { label: "SunDim", component: SunDim },
+  { label: "SunMedium", component: SunMedium },
+  { label: "SunMoon", component: SunMoon },
+  { label: "SunSnow", component: SunSnow },
+  { label: "Sun", component: Sun },
+  { label: "Sunrise", component: Sunrise },
+  { label: "Sunset", component: Sunset },
+  { label: "Superscript", component: Superscript },
+  { label: "SwatchBook", component: SwatchBook },
+  { label: "SwissFranc", component: SwissFranc },
+  { label: "SwitchCamera", component: SwitchCamera },
+  { label: "Sword", component: Sword },
+  { label: "Swords", component: Swords },
+  { label: "Syringe", component: Syringe },
+  { label: "Table2", component: Table2 },
+  { label: "TableCellsMerge", component: TableCellsMerge },
+  { label: "TableCellsSplit", component: TableCellsSplit },
+  { label: "TableColumnsSplit", component: TableColumnsSplit },
+  { label: "TableOfContents", component: TableOfContents },
+  { label: "TableProperties", component: TableProperties },
+  { label: "TableRowsSplit", component: TableRowsSplit },
+  { label: "Table", component: Table },
+  { label: "TabletSmartphone", component: TabletSmartphone },
+  { label: "Tablet", component: Tablet },
+  { label: "Tablets", component: Tablets },
+  { label: "Tag", component: Tag },
+  { label: "Tags", component: Tags },
+  { label: "Tally1", component: Tally1 },
+  { label: "Tally2", component: Tally2 },
+  { label: "Tally3", component: Tally3 },
+  { label: "Tally4", component: Tally4 },
+  { label: "Tally5", component: Tally5 },
+  { label: "Tangent", component: Tangent },
+  { label: "Target", component: Target },
+  { label: "Telescope", component: Telescope },
+  { label: "TentTree", component: TentTree },
+  { label: "Tent", component: Tent },
+  { label: "Terminal", component: Terminal },
+  { label: "TestTubeDiagonal", component: TestTubeDiagonal },
+  { label: "TestTube", component: TestTube },
+  { label: "TestTubes", component: TestTubes },
+  { label: "TextCursorInput", component: TextCursorInput },
+  { label: "TextCursor", component: TextCursor },
+  { label: "TextQuote", component: TextQuote },
+  { label: "TextSearch", component: TextSearch },
+  { label: "TextSelect", component: TextSelect },
+  { label: "Text", component: Text },
+  { label: "Theater", component: Theater },
+  { label: "ThermometerSnowflake", component: ThermometerSnowflake },
+  { label: "ThermometerSun", component: ThermometerSun },
+  { label: "Thermometer", component: Thermometer },
+  { label: "ThumbsDown", component: ThumbsDown },
+  { label: "ThumbsUp", component: ThumbsUp },
+  { label: "TicketCheck", component: TicketCheck },
+  { label: "TicketMinus", component: TicketMinus },
+  { label: "TicketPercent", component: TicketPercent },
+  { label: "TicketPlus", component: TicketPlus },
+  { label: "TicketSlash", component: TicketSlash },
+  { label: "TicketX", component: TicketX },
+  { label: "Ticket", component: Ticket },
+  { label: "TicketsPlane", component: TicketsPlane },
+  { label: "Tickets", component: Tickets },
+  { label: "TimerOff", component: TimerOff },
+  { label: "TimerReset", component: TimerReset },
+  { label: "Timer", component: Timer },
+  { label: "ToggleLeft", component: ToggleLeft },
+  { label: "ToggleRight", component: ToggleRight },
+  { label: "Tornado", component: Tornado },
+  { label: "Torus", component: Torus },
+  { label: "TouchpadOff", component: TouchpadOff },
+  { label: "Touchpad", component: Touchpad },
+  { label: "TowerControl", component: TowerControl },
+  { label: "ToyBrick", component: ToyBrick },
+  { label: "Tractor", component: Tractor },
+  { label: "TrafficCone", component: TrafficCone },
+  { label: "TrainFrontTunnel", component: TrainFrontTunnel },
+  { label: "TrainFront", component: TrainFront },
+  { label: "TrainTrack", component: TrainTrack },
+  { label: "TramFront", component: TramFront },
+  { label: "Trash2", component: Trash2 },
+  { label: "Trash", component: Trash },
+  { label: "TreeDeciduous", component: TreeDeciduous },
+  { label: "TreePalm", component: TreePalm },
+  { label: "TreePine", component: TreePine },
+  { label: "Trees", component: Trees },
+  { label: "Trello", component: Trello },
+  { label: "TrendingDown", component: TrendingDown },
+  { label: "TrendingUpDown", component: TrendingUpDown },
+  { label: "TrendingUp", component: TrendingUp },
+  { label: "TriangleAlert", component: TriangleAlert },
+  { label: "TriangleRight", component: TriangleRight },
+  { label: "Triangle", component: Triangle },
+  { label: "Trophy", component: Trophy },
+  { label: "Truck", component: Truck },
+  { label: "Turtle", component: Turtle },
+  { label: "TvMinimalPlay", component: TvMinimalPlay },
+  { label: "TvMinimal", component: TvMinimal },
+  { label: "Tv", component: Tv },
+  { label: "Twitch", component: Twitch },
+  { label: "Twitter", component: Twitter },
+  { label: "TypeOutline", component: TypeOutline },
+  { label: "Type", component: Type },
+  { label: "UmbrellaOff", component: UmbrellaOff },
+  { label: "Umbrella", component: Umbrella },
+  { label: "Underline", component: Underline },
+  { label: "Undo2", component: Undo2 },
+  { label: "UndoDot", component: UndoDot },
+  { label: "Undo", component: Undo },
+  { label: "UnfoldHorizontal", component: UnfoldHorizontal },
+  { label: "UnfoldVertical", component: UnfoldVertical },
+  { label: "Ungroup", component: Ungroup },
+  { label: "University", component: University },
+  { label: "Unlink2", component: Unlink2 },
+  { label: "Unlink", component: Unlink },
+  { label: "Unplug", component: Unplug },
+  { label: "Upload", component: Upload },
+  { label: "Usb", component: Usb },
+  { label: "UserCheck", component: UserCheck },
+  { label: "UserCog", component: UserCog },
+  { label: "UserMinus", component: UserMinus },
+  { label: "UserPen", component: UserPen },
+  { label: "UserPlus", component: UserPlus },
+  { label: "UserRoundCheck", component: UserRoundCheck },
+  { label: "UserRoundCog", component: UserRoundCog },
+  { label: "UserRoundMinus", component: UserRoundMinus },
+  { label: "UserRoundPen", component: UserRoundPen },
+  { label: "UserRoundPlus", component: UserRoundPlus },
+  { label: "UserRoundSearch", component: UserRoundSearch },
+  { label: "UserRoundX", component: UserRoundX },
+  { label: "UserRound", component: UserRound },
+  { label: "UserSearch", component: UserSearch },
+  { label: "UserX", component: UserX },
+  { label: "User", component: User },
+  { label: "UsersRound", component: UsersRound },
+  { label: "Users", component: Users },
+  { label: "UtensilsCrossed", component: UtensilsCrossed },
+  { label: "Utensils", component: Utensils },
+  { label: "UtilityPole", component: UtilityPole },
+  { label: "Variable", component: Variable },
+  { label: "Vault", component: Vault },
+  { label: "Vegan", component: Vegan },
+  { label: "VenetianMask", component: VenetianMask },
+  { label: "VibrateOff", component: VibrateOff },
+  { label: "Vibrate", component: Vibrate },
+  { label: "VideoOff", component: VideoOff },
+  { label: "Video", component: Video },
+  { label: "Videotape", component: Videotape },
+  { label: "View", component: View },
+  { label: "Voicemail", component: Voicemail },
+  { label: "Volume1", component: Volume1 },
+  { label: "Volume2", component: Volume2 },
+  { label: "VolumeOff", component: VolumeOff },
+  { label: "VolumeX", component: VolumeX },
+  { label: "Volume", component: Volume },
+  { label: "Vote", component: Vote },
+  { label: "WalletCards", component: WalletCards },
+  { label: "WalletMinimal", component: WalletMinimal },
+  { label: "Wallet", component: Wallet },
+  { label: "Wallpaper", component: Wallpaper },
+  { label: "WandSparkles", component: WandSparkles },
+  { label: "Wand", component: Wand },
+  { label: "Warehouse", component: Warehouse },
+  { label: "WashingMachine", component: WashingMachine },
+  { label: "Watch", component: Watch },
+  { label: "Waves", component: Waves },
+  { label: "Waypoints", component: Waypoints },
+  { label: "Webcam", component: Webcam },
+  { label: "WebhookOff", component: WebhookOff },
+  { label: "Webhook", component: Webhook },
+  { label: "Weight", component: Weight },
+  { label: "WheatOff", component: WheatOff },
+  { label: "Wheat", component: Wheat },
+  { label: "WholeWord", component: WholeWord },
+  { label: "WifiHigh", component: WifiHigh },
+  { label: "WifiLow", component: WifiLow },
+  { label: "WifiOff", component: WifiOff },
+  { label: "WifiZero", component: WifiZero },
+  { label: "Wifi", component: Wifi },
+  { label: "Wind", component: Wind },
+  { label: "WineOff", component: WineOff },
+  { label: "Wine", component: Wine },
+  { label: "Workflow", component: Workflow },
+  { label: "Worm", component: Worm },
+  { label: "WrapText", component: WrapText },
+  { label: "Wrench", component: Wrench },
+  { label: "X", component: X },
+  { label: "Youtube", component: Youtube },
+  { label: "ZapOff", component: ZapOff },
+  { label: "Zap", component: Zap },
+  { label: "ZoomIn", component: ZoomIn },
+  { label: "ZoomOut", component: ZoomOut },
+];

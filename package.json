@@ -1,0 +1,20 @@
+{
+  "name": "lucide-micro",
+  "private": false,
+  "version": "1.0.2",
+  "main": "./src/main.ts",
+  "scripts": {
+    "build": "bun cli/createFiles.ts"
+  },
+  "dependencies": {
+    "bun": "^1.1.26",
+    "lucide": "^0.433.0",
+    "lucide-react": "^0.438.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {},
+  "description": "## Setup",
+  "author": "",
+  "license": "ISC"
+}
